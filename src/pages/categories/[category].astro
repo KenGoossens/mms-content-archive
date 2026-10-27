@@ -6,6 +6,7 @@ import {
   getSessionsByCategory,
   getSpeakersForSession,
   groupRecurring,
+  sessionHref,
 } from "../../lib/data";
 import { categorySlug } from "../../lib/taxonomy";
 import { formatSessionTime } from "../../lib/format";
@@ -40,9 +41,7 @@ const grouped = groupRecurring(sessions);
           .join(", ");
         return (
           <li>
-            <a href={`/sessions/${view.edition.id}/${view.session.id}/`}>
-              {view.session.title}
-            </a>
+            <a href={sessionHref(view)}>{view.session.title}</a>
             {occurrences > 1 && (
               <span class="recurs">×{occurrences} slots</span>
             )}

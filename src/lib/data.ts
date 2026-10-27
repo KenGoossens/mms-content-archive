@@ -101,6 +101,51 @@ export function getSessionsByCategory(category: string): SessionView[] {
   return getAllSessions().filter((v) => v.session.category === category);
 }
 
+// Sched event keys are case-sensitive (e.g. "2RHGs" vs "2RHGS"), but folder
+// names and many hosts/CDNs are case-insensitive, so using the raw key as a URL
+// segment silently drops colliding pages. Map each session to a lowercase,
+// case-insensitively-unique URL id once, and route/link through it everywhere.
+const urlIdMaps = (() => {
+  const forward = new Map<string, string>(); // `${editionId}::${rawId}` -> urlId
+  const reverse = new Map<string, string>(); // `${editionId}::${urlId}` -> rawId
+  for (const data of getAllEditionData()) {
+    const used = new Set<string>();
+    for (const s of data.sessions) {
+      const base =
+        s.id
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "") || "s";
+      let candidate = base;
+      let i = 2;
+      while (used.has(candidate)) candidate = `${base}-${i++}`;
+      used.add(candidate);
+      forward.set(`${data.edition.id}::${s.id}`, candidate);
+      reverse.set(`${data.edition.id}::${candidate}`, s.id);
+    }
+  }
+  return { forward, reverse };
+})();
+
+/** The portable, lowercase URL id for a session within its edition. */
+export function sessionUrlId(editionId: string, rawId: string): string {
+  return urlIdMaps.forward.get(`${editionId}::${rawId}`) ?? rawId.toLowerCase();
+}
+
+/** The archive path for a session, e.g. "/sessions/mms-2026-midway/2rhgs/". */
+export function sessionHref(view: SessionView): string {
+  return `/sessions/${view.edition.id}/${sessionUrlId(view.edition.id, view.session.id)}/`;
+}
+
+/** Resolve a session from the URL id used in its path. */
+export function getSessionByUrlId(
+  editionId: string,
+  urlId: string,
+): SessionView | undefined {
+  const rawId = urlIdMaps.reverse.get(`${editionId}::${urlId}`);
+  return rawId ? getSession(editionId, rawId) : undefined;
+}
+
 export interface GroupedSession {
   /** The earliest occurrence, used as the representative/link target. */
   view: SessionView;

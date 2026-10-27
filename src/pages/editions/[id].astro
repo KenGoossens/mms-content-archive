@@ -5,6 +5,7 @@ import {
   getAllEditionData,
   getSpeakersForSession,
   groupRecurring,
+  sessionHref,
   type SessionView,
 } from "../../lib/data";
 import { formatSessionTime, formatDateRange } from "../../lib/format";
@@ -54,9 +55,7 @@ function speakerNames(view: SessionView): string {
         const names = speakerNames(view);
         return (
           <li>
-            <a href={`/sessions/${view.edition.id}/${session.id}/`}>
-              {session.title}
-            </a>
+            <a href={sessionHref(view)}>{session.title}</a>
             {occurrences > 1 && (
               <span class="recurs">×{occurrences} slots</span>
             )}

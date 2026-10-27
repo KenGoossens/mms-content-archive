@@ -6,13 +6,15 @@
   "description": "Unofficial, community-made searchable archive of MMS session content, built from public Sched schedules.",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "ingest": "tsx scripts/ingest.ts"
+    "ingest": "tsx scripts/ingest.ts",
+    "smoke": "node scripts/smoke.mjs",
+    "verify": "npm run build && npm run smoke && npm test"
   },
   "dependencies": {
     "astro": "^5.1.0",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
+    "pagefind": "^1.5.2",
     "prettier": "^3.4.0",
     "prettier-plugin-astro": "^0.14.1",
     "tsx": "^4.23.15",

@@ -1,7 +1,11 @@
 ---
 import type { GetStaticPaths } from "astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getAllSpeakers, getSessionsForSpeaker } from "../../lib/data";
+import {
+  getAllSpeakers,
+  getSessionsForSpeaker,
+  sessionHref,
+} from "../../lib/data";
 import { formatSessionTime } from "../../lib/format";
 
 export const getStaticPaths = (() => {
@@ -33,9 +37,7 @@ const sessions = getSessionsForSpeaker(speaker.slug);
       {
         sessions.map((view) => (
           <li>
-            <a href={`/sessions/${view.edition.id}/${view.session.id}/`}>
-              {view.session.title}
-            </a>
+            <a href={sessionHref(view)}>{view.session.title}</a>
             <div class="meta">
               <span>{view.edition.name}</span>
               <span>{formatSessionTime(view.session)}</span>

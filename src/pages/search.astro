@@ -1,0 +1,34 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Search — MMS Content Archive"
+  description="Search MMS sessions by topic, with filters for edition, category, and speaker."
+>
+  <h1>Search sessions</h1>
+  <p>
+    Search titles and abstracts across every edition. Filter by edition,
+    category, or speaker using the controls that appear with your results.
+  </p>
+
+  <div id="search" data-pagefind-ignore></div>
+
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    window.addEventListener("DOMContentLoaded", () => {
+      if (window.PagefindUI) {
+        new window.PagefindUI({
+          element: "#search",
+          showSubResults: false,
+          showImages: false,
+          pageSize: 10,
+        });
+      } else {
+        document.getElementById("search").innerHTML =
+          "<p>Search is available on the built site (run <code>npm run build</code>); it is not active in dev.</p>";
+      }
+    });
+  </script>
+</BaseLayout>

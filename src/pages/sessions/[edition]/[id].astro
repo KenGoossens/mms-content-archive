@@ -1,13 +1,20 @@
 ---
 import type { GetStaticPaths } from "astro";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { getAllSessions, getSpeakersForSession } from "../../../lib/data";
+import {
+  getAllSessions,
+  getSpeakersForSession,
+  sessionUrlId,
+} from "../../../lib/data";
 import { formatSessionTime } from "../../../lib/format";
 import { categorySlug } from "../../../lib/taxonomy";
 
 export const getStaticPaths = (() => {
   return getAllSessions().map((view) => ({
-    params: { edition: view.edition.id, id: view.session.id },
+    params: {
+      edition: view.edition.id,
+      id: sessionUrlId(view.edition.id, view.session.id),
+    },
     props: { view },
   }));
 }) satisfies GetStaticPaths;
@@ -21,8 +28,13 @@ const speakers = getSpeakersForSession(view);
   title={`${session.title} — MMS Content Archive`}
   description={session.abstract.slice(0, 160)}
 >
-  <article>
-    <p class="breadcrumb"><a href="/">Home</a> › {edition.name}</p>
+  <article data-pagefind-body>
+    <p class="breadcrumb">
+      <a href="/">Home</a> ›
+      <a href={`/editions/${edition.id}/`} data-pagefind-filter="Edition"
+        >{edition.name}</a
+      >
+    </p>
     <h1>{session.title}</h1>
 
     <div class="meta">
@@ -31,6 +43,7 @@ const speakers = getSpeakersForSession(view);
           <a
             class="track"
             href={`/categories/${categorySlug(session.category)}/`}
+            data-pagefind-filter="Category"
           >
             {session.category}
           </a>
@@ -46,7 +59,9 @@ const speakers = getSpeakersForSession(view);
           {speakers.map((s, i) => (
             <>
               {i > 0 && ", "}
-              <a href={`/speakers/${s.slug}/`}>{s.name}</a>
+              <a href={`/speakers/${s.slug}/`} data-pagefind-filter="Speaker">
+                {s.name}
+              </a>
             </>
           ))}
         </p>

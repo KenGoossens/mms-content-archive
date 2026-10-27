@@ -1,5 +1,10 @@
 import { describe, it, expect } from "vitest";
-import { groupRecurring, type SessionView } from "../src/lib/data";
+import {
+  groupRecurring,
+  getAllSessions,
+  sessionHref,
+  type SessionView,
+} from "../src/lib/data";
 import type { EditionMeta, Session } from "../src/lib/types";
 
 const edition: EditionMeta = {
@@ -60,5 +65,17 @@ describe("groupRecurring", () => {
       session("b2", "Talk B", "2025-10-13T09:00:00"),
     ];
     expect(groupRecurring(views).map((g) => g.occurrences)).toEqual([1, 1]);
+  });
+});
+
+describe("sessionHref (case-insensitive-safe routing)", () => {
+  it("gives every session a unique, lowercase path even on case-insensitive hosts", () => {
+    const sessions = getAllSessions();
+    const hrefs = sessions.map((v) => sessionHref(v));
+    // All lowercase.
+    expect(hrefs.every((h) => h === h.toLowerCase())).toBe(true);
+    // Unique when compared case-insensitively (Windows / CDN safe).
+    const lowered = new Set(hrefs.map((h) => h.toLowerCase()));
+    expect(lowered.size).toBe(sessions.length);
   });
 });
