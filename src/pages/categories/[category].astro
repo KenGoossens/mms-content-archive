@@ -1,0 +1,54 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  getCategoryCounts,
+  getSessionsByCategory,
+  getSpeakersForSession,
+} from "../../lib/data";
+import { categorySlug } from "../../lib/taxonomy";
+import { formatSessionTime } from "../../lib/format";
+
+export const getStaticPaths = (() => {
+  return getCategoryCounts().map(({ category }) => ({
+    params: { category: categorySlug(category) },
+    props: { category },
+  }));
+}) satisfies GetStaticPaths;
+
+const { category } = Astro.props;
+const sessions = getSessionsByCategory(category);
+---
+
+<BaseLayout
+  title={`${category} — MMS Content Archive`}
+  description={`MMS sessions in ${category}.`}
+>
+  <p class="breadcrumb">
+    <a href="/">Home</a> › <a href="/categories/">Categories</a> › {category}
+  </p>
+  <h1>{category}</h1>
+  <p>{sessions.length} session{sessions.length === 1 ? "" : "s"}</p>
+
+  <ul class="session-list">
+    {
+      sessions.map((view) => {
+        const names = getSpeakersForSession(view)
+          .map((s) => s.name)
+          .join(", ");
+        return (
+          <li>
+            <a href={`/sessions/${view.edition.id}/${view.session.id}/`}>
+              {view.session.title}
+            </a>
+            <div class="meta">
+              <span>{view.edition.name}</span>
+              <span>{formatSessionTime(view.session)}</span>
+              {names && <span>{names}</span>}
+            </div>
+          </li>
+        );
+      })
+    }
+  </ul>
+</BaseLayout>

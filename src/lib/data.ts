@@ -84,3 +84,19 @@ export function getSpeakersForSession(view: SessionView): Speaker[] {
     .map((slug) => data.speakers.find((s) => s.slug === slug))
     .filter((s): s is Speaker => Boolean(s));
 }
+
+/** Categories that actually have sessions, in taxonomy order, with counts. */
+export function getCategoryCounts(): { category: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const { session } of getAllSessions()) {
+    const c = session.category ?? "Uncategorized";
+    counts.set(c, (counts.get(c) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([category, count]) => ({ category, count }))
+    .sort((a, b) => b.count - a.count);
+}
+
+export function getSessionsByCategory(category: string): SessionView[] {
+  return getAllSessions().filter((v) => v.session.category === category);
+}

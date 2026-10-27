@@ -6,6 +6,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import type { EditionData, EditionMeta } from "./types";
 import { parseEdition, parseSessionAbstract } from "./sched/parse";
+import { UNCATEGORIZED } from "./taxonomy";
 import { eventUrl, listDescriptionsUrl, type Fetcher } from "./sched/fetch";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -32,6 +33,21 @@ export async function ingestEdition(
   log(
     `  parsed ${data.sessions.length} sessions, ${data.speakers.length} speakers`,
   );
+
+  // Surface Source Tracks that fell through to Uncategorized so the taxonomy
+  // mapping can be extended (ADR-0003) rather than silently losing them.
+  const unmapped = new Map<string, number>();
+  for (const s of data.sessions) {
+    if (s.sourceTrack && s.category === UNCATEGORIZED) {
+      unmapped.set(s.sourceTrack, (unmapped.get(s.sourceTrack) ?? 0) + 1);
+    }
+  }
+  if (unmapped.size > 0) {
+    const list = [...unmapped.entries()]
+      .map(([t, n]) => `${t} (${n})`)
+      .join(", ");
+    log(`  ⚠ unmapped Source Tracks -> add to taxonomy: ${list}`);
+  }
 
   if (options.fullAbstracts) {
     for (const session of data.sessions) {

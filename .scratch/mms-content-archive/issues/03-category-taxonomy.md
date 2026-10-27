@@ -4,7 +4,7 @@
 
 **Blocked by:** 02.
 
-**Status:** ready-for-agent
+**Status:** done
 
 - [ ] A curated Category taxonomy is defined as data, plus a mapping table from Source Track → Category
 - [ ] Normalize assigns each Session a primary Category via the mapping

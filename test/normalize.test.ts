@@ -4,6 +4,7 @@ import { describe, it, expect } from "vitest";
 import { parseEdition } from "../src/lib/sched/parse";
 import { parseSchedDate } from "../src/lib/sched/datetime";
 import { editionById } from "../src/lib/editions";
+import { CATEGORIES } from "../src/lib/taxonomy";
 import type { EditionData } from "../src/lib/types";
 
 const fixture = (name: string) =>
@@ -45,8 +46,22 @@ describe("parseEdition — MMS Midway (upcoming, no materials)", () => {
     expect(data.sessions.every((s) => s.materials.length === 0)).toBe(true);
   });
 
-  it("leaves Category unset until the taxonomy is applied", () => {
-    expect(data.sessions.every((s) => s.category === null)).toBe(true);
+  it("assigns every session a Category from the taxonomy", () => {
+    expect(
+      data.sessions.every(
+        (s) => s.category && CATEGORIES.includes(s.category as never),
+      ),
+    ).toBe(true);
+  });
+
+  it("maps a known Source Track to its Category", () => {
+    // 2WaTg's Source Track is "Sponsor" -> Sponsor; an Intune session -> Endpoint Management.
+    const sponsor = data.sessions.find((s) => s.id === "2WaTg");
+    expect(sponsor!.sourceTrack).toBe("Sponsor");
+    expect(sponsor!.category).toBe("Sponsor");
+
+    const intune = data.sessions.find((s) => s.sourceTrack === "Intune");
+    expect(intune?.category).toBe("Endpoint Management");
   });
 });
 

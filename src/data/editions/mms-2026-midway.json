@@ -22,7 +22,7 @@
       "venue": "Harbor D\\E\\F",
       "speakerSlugs": [],
       "sourceTrack": "Sponsor",
-      "category": null,
+      "category": "Sponsor",
       "materials": []
     },
     {
@@ -39,7 +39,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -59,7 +59,7 @@
         "jgkps"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -79,7 +79,7 @@
         "bwren1"
       ],
       "sourceTrack": "Azure",
-      "category": null,
+      "category": "Azure & Cloud",
       "materials": []
     },
     {
@@ -99,7 +99,7 @@
         "hafarz"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -119,7 +119,7 @@
         "nathan.lockwood1"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -139,7 +139,7 @@
         "morten_knudsen.27sn3yb1"
       ],
       "sourceTrack": "Security",
-      "category": null,
+      "category": "Security",
       "materials": []
     },
     {
@@ -158,7 +158,7 @@
         "jordan_benzing.28k3fr8m"
       ],
       "sourceTrack": "Sponsor",
-      "category": null,
+      "category": "Sponsor",
       "materials": []
     },
     {
@@ -175,7 +175,7 @@
       "venue": "Harbor H",
       "speakerSlugs": [],
       "sourceTrack": "Sponsor",
-      "category": null,
+      "category": "Sponsor",
       "materials": []
     },
     {
@@ -192,7 +192,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -212,7 +212,7 @@
         "jgkps"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -231,7 +231,7 @@
         "jim_oneil.28jia8vk"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -248,7 +248,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -268,7 +268,7 @@
         "jgkps"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -287,7 +287,7 @@
         "jim_oneil.28jia8vk"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -304,7 +304,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -324,7 +324,7 @@
         "jgkps"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -343,7 +343,7 @@
         "jim_oneil.28jia8vk"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -360,7 +360,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -380,7 +380,7 @@
         "jgkps"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -397,7 +397,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -417,7 +417,7 @@
         "david_brook.27tenjix"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -437,7 +437,7 @@
         "simon_skotheimsvik.7z9wjar"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -457,7 +457,7 @@
         "arwidmark"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -477,7 +477,7 @@
         "nathan_mcnulty.27snymyj"
       ],
       "sourceTrack": "Security",
-      "category": null,
+      "category": "Security",
       "materials": []
     },
     {
@@ -497,7 +497,7 @@
         "rod_trent.28kie72h"
       ],
       "sourceTrack": "Security",
-      "category": null,
+      "category": "Security",
       "materials": []
     },
     {
@@ -518,7 +518,7 @@
         "adam_nichols.29bhu3ne"
       ],
       "sourceTrack": "Windows",
-      "category": null,
+      "category": "Windows",
       "materials": []
     },
     {
@@ -538,7 +538,7 @@
         "kent_agerlund.1xngh2qj"
       ],
       "sourceTrack": "Windows",
-      "category": null,
+      "category": "Windows",
       "materials": []
     },
     {
@@ -555,7 +555,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -575,7 +575,7 @@
         "david_brook.27tenjix"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -594,7 +594,7 @@
         "adam_gross.27so7u0l"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -611,7 +611,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -631,7 +631,7 @@
         "david_brook.27tenjix"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -650,7 +650,7 @@
         "adam_gross.27so7u0l"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -667,7 +667,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -687,7 +687,7 @@
         "david_brook.27tenjix"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -704,7 +704,7 @@
       "venue": null,
       "speakerSlugs": [],
       "sourceTrack": null,
-      "category": null,
+      "category": "Uncategorized",
       "materials": []
     },
     {
@@ -723,7 +723,7 @@
         "adam_gross.27so7u0l"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -740,7 +740,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -760,7 +760,7 @@
         "david_brook.27tenjix"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -777,7 +777,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -797,7 +797,7 @@
         "david_brook.27tenjix"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -814,7 +814,7 @@
       "venue": "Harbor D\\E\\F",
       "speakerSlugs": [],
       "sourceTrack": "Sponsor",
-      "category": null,
+      "category": "Sponsor",
       "materials": []
     },
     {
@@ -831,7 +831,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -851,7 +851,7 @@
         "nathan_mcnulty.27snymyj"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -871,7 +871,7 @@
         "steve_jesok.28jia8kd"
       ],
       "sourceTrack": "ConfigMgr",
-      "category": null,
+      "category": "Configuration Manager",
       "materials": []
     },
     {
@@ -891,7 +891,7 @@
         "simon_skotheimsvik.7z9wjar"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -911,7 +911,7 @@
         "peter_daalmans.28j9d0cg"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -932,7 +932,7 @@
         "kent_agerlund.1xngh2qj"
       ],
       "sourceTrack": "Security",
-      "category": null,
+      "category": "Security",
       "materials": []
     },
     {
@@ -952,7 +952,7 @@
         "adam_nichols.29bhu3ne"
       ],
       "sourceTrack": "Windows",
-      "category": null,
+      "category": "Windows",
       "materials": []
     },
     {
@@ -972,7 +972,7 @@
         "bryan_dam.28jno8u4"
       ],
       "sourceTrack": "Windows",
-      "category": null,
+      "category": "Windows",
       "materials": []
     },
     {
@@ -989,7 +989,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1009,7 +1009,7 @@
         "nathan_mcnulty.27snymyj"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1028,7 +1028,7 @@
         "donnie_taylor.27sdm6lt"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1045,7 +1045,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1065,7 +1065,7 @@
         "nathan_mcnulty.27snymyj"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1084,7 +1084,7 @@
         "donnie_taylor.27sdm6lt"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1101,7 +1101,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1121,7 +1121,7 @@
         "nathan_mcnulty.27snymyj"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1140,7 +1140,7 @@
         "donnie_taylor.27sdm6lt"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1157,7 +1157,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1177,7 +1177,7 @@
         "nathan_mcnulty.27snymyj"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1194,7 +1194,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1214,7 +1214,7 @@
         "simon_skotheimsvik.7z9wjar"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1235,7 +1235,7 @@
         "maurice.daly"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -1255,7 +1255,7 @@
         "david_brook.27tenjix"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -1275,7 +1275,7 @@
         "jrgen_nilsson.27sn41it"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -1296,7 +1296,7 @@
         "dan.stutz441"
       ],
       "sourceTrack": "Security",
-      "category": null,
+      "category": "Security",
       "materials": []
     },
     {
@@ -1316,7 +1316,7 @@
         "steve_weiner.27sn40ya"
       ],
       "sourceTrack": "Windows",
-      "category": null,
+      "category": "Windows",
       "materials": []
     },
     {
@@ -1337,7 +1337,7 @@
         "harjit4"
       ],
       "sourceTrack": "Windows",
-      "category": null,
+      "category": "Windows",
       "materials": []
     },
     {
@@ -1354,7 +1354,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1374,7 +1374,7 @@
         "simon_skotheimsvik.7z9wjar"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1393,7 +1393,7 @@
         "steve_jesok.28jia8kd"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1410,7 +1410,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1430,7 +1430,7 @@
         "simon_skotheimsvik.7z9wjar"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1449,7 +1449,7 @@
         "steve_jesok.28jia8kd"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1466,7 +1466,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1486,7 +1486,7 @@
         "simon_skotheimsvik.7z9wjar"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1505,7 +1505,7 @@
         "steve_jesok.28jia8kd"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1525,7 +1525,7 @@
         "chris.sires"
       ],
       "sourceTrack": "Happy Hour",
-      "category": null,
+      "category": "Social & Networking",
       "materials": []
     },
     {
@@ -1546,7 +1546,7 @@
         "arwidmark"
       ],
       "sourceTrack": "Happy Hour",
-      "category": null,
+      "category": "Social & Networking",
       "materials": []
     },
     {
@@ -1566,7 +1566,7 @@
         "peter_daalmans.28j9d0cg"
       ],
       "sourceTrack": "Happy Hour",
-      "category": null,
+      "category": "Social & Networking",
       "materials": []
     },
     {
@@ -1586,7 +1586,7 @@
         "jordan_benzing.28k3fr8m"
       ],
       "sourceTrack": "Happy Hour",
-      "category": null,
+      "category": "Social & Networking",
       "materials": []
     },
     {
@@ -1606,7 +1606,7 @@
         "nathan_ziehnert.27sdlp62"
       ],
       "sourceTrack": "Happy Hour",
-      "category": null,
+      "category": "Social & Networking",
       "materials": []
     },
     {
@@ -1623,7 +1623,7 @@
       "venue": "Top of the Hyatt",
       "speakerSlugs": [],
       "sourceTrack": "Happy Hour",
-      "category": null,
+      "category": "Social & Networking",
       "materials": []
     },
     {
@@ -1640,7 +1640,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1660,7 +1660,7 @@
         "michael_niehaus.29cuco8l"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1680,7 +1680,7 @@
         "scott_corio.27sdm7bd"
       ],
       "sourceTrack": "Azure",
-      "category": null,
+      "category": "Azure & Cloud",
       "materials": []
     },
     {
@@ -1700,7 +1700,7 @@
         "bryan_dam.28jno8u4"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -1719,7 +1719,7 @@
         "mattcall1"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -1738,7 +1738,7 @@
         "jessica_yang.2a33131f"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -1758,7 +1758,7 @@
         "sergey_chubarov.28kgmhd9"
       ],
       "sourceTrack": "Security",
-      "category": null,
+      "category": "Security",
       "materials": []
     },
     {
@@ -1778,7 +1778,7 @@
         "steven.thomas8"
       ],
       "sourceTrack": "Windows",
-      "category": null,
+      "category": "Windows",
       "materials": []
     },
     {
@@ -1795,7 +1795,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1815,7 +1815,7 @@
         "michael_niehaus.29cuco8l"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1834,7 +1834,7 @@
         "adam_nichols.29bhu3ne"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1851,7 +1851,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1871,7 +1871,7 @@
         "michael_niehaus.29cuco8l"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1890,7 +1890,7 @@
         "adam_nichols.29bhu3ne"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1907,7 +1907,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1927,7 +1927,7 @@
         "michael_niehaus.29cuco8l"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1946,7 +1946,7 @@
         "adam_nichols.29bhu3ne"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1963,7 +1963,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -1983,7 +1983,7 @@
         "michael_niehaus.29cuco8l"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2000,7 +2000,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2020,7 +2020,7 @@
         "bryan_dam.28jno8u4"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2041,7 +2041,7 @@
         "bwren1"
       ],
       "sourceTrack": "Azure",
-      "category": null,
+      "category": "Azure & Cloud",
       "materials": []
     },
     {
@@ -2061,7 +2061,7 @@
         "nawar.danane"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -2081,7 +2081,7 @@
         "andrew_johnson.27sn45ur"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -2100,7 +2100,7 @@
         "aanavath"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -2120,7 +2120,7 @@
         "kent_agerlund.1xngh2qj"
       ],
       "sourceTrack": "Security",
-      "category": null,
+      "category": "Security",
       "materials": []
     },
     {
@@ -2140,7 +2140,7 @@
         "simon_skotheimsvik.7z9wjar"
       ],
       "sourceTrack": "Security",
-      "category": null,
+      "category": "Security",
       "materials": []
     },
     {
@@ -2157,7 +2157,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2177,7 +2177,7 @@
         "bryan_dam.28jno8u4"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2196,7 +2196,7 @@
         "chris_cavazos.27to6pmu"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2213,7 +2213,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2233,7 +2233,7 @@
         "bryan_dam.28jno8u4"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2252,7 +2252,7 @@
         "chris_cavazos.27to6pmu"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2269,7 +2269,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2289,7 +2289,7 @@
         "bryan_dam.28jno8u4"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2306,7 +2306,7 @@
       "venue": null,
       "speakerSlugs": [],
       "sourceTrack": null,
-      "category": null,
+      "category": "Uncategorized",
       "materials": []
     },
     {
@@ -2325,7 +2325,7 @@
         "chris_cavazos.27to6pmu"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2342,7 +2342,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2362,7 +2362,7 @@
         "bryan_dam.28jno8u4"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2379,7 +2379,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2399,7 +2399,7 @@
         "bryan_dam.28jno8u4"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2416,7 +2416,7 @@
       "venue": "Harbor D\\E\\F",
       "speakerSlugs": [],
       "sourceTrack": "Sponsor",
-      "category": null,
+      "category": "Sponsor",
       "materials": []
     },
     {
@@ -2433,7 +2433,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2453,7 +2453,7 @@
         "nawar.danane"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2473,7 +2473,7 @@
         "bwren1"
       ],
       "sourceTrack": "Azure",
-      "category": null,
+      "category": "Azure & Cloud",
       "materials": []
     },
     {
@@ -2493,7 +2493,7 @@
         "tim_de_keukelaere.1sw4e0pu"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -2513,7 +2513,7 @@
         "steve_jesok.28jia8kd"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -2534,7 +2534,7 @@
         "sandy_zeng.27sn4def"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -2554,7 +2554,7 @@
         "andreas_sobczyk.1xqa96ke"
       ],
       "sourceTrack": "Other",
-      "category": null,
+      "category": "Other",
       "materials": []
     },
     {
@@ -2575,7 +2575,7 @@
         "jgkps"
       ],
       "sourceTrack": "Windows",
-      "category": null,
+      "category": "Windows",
       "materials": []
     },
     {
@@ -2592,7 +2592,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2612,7 +2612,7 @@
         "nawar.danane"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2631,7 +2631,7 @@
         "rod_trent.28kie72h"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2648,7 +2648,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2668,7 +2668,7 @@
         "nawar.danane"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2687,7 +2687,7 @@
         "rod_trent.28kie72h"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2704,7 +2704,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2724,7 +2724,7 @@
         "nawar.danane"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2743,7 +2743,7 @@
         "rod_trent.28kie72h"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2760,7 +2760,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2780,7 +2780,7 @@
         "nawar.danane"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2797,7 +2797,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2817,7 +2817,7 @@
         "steve_jesok.28jia8kd"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2838,7 +2838,7 @@
         "adam_nichols.29bhu3ne"
       ],
       "sourceTrack": "ConfigMgr",
-      "category": null,
+      "category": "Configuration Manager",
       "materials": []
     },
     {
@@ -2858,7 +2858,7 @@
         "jim_oneil.28jia8vk"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -2878,7 +2878,7 @@
         "tim_de_keukelaere.1sw4e0pu"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -2898,7 +2898,7 @@
         "melissa1726"
       ],
       "sourceTrack": "Intune",
-      "category": null,
+      "category": "Endpoint Management",
       "materials": []
     },
     {
@@ -2918,7 +2918,7 @@
         "nathan_ziehnert.27sdlp62"
       ],
       "sourceTrack": "Other",
-      "category": null,
+      "category": "Other",
       "materials": []
     },
     {
@@ -2938,7 +2938,7 @@
         "john_joyner.29zocqup"
       ],
       "sourceTrack": "Security",
-      "category": null,
+      "category": "Security",
       "materials": []
     },
     {
@@ -2955,7 +2955,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2975,7 +2975,7 @@
         "steve_jesok.28jia8kd"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -2994,7 +2994,7 @@
         "nathan_mcnulty.27snymyj"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -3011,7 +3011,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -3031,7 +3031,7 @@
         "steve_jesok.28jia8kd"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -3050,7 +3050,7 @@
         "nathan_mcnulty.27snymyj"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -3067,7 +3067,7 @@
       "venue": "Wingman 1",
       "speakerSlugs": [],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -3087,7 +3087,7 @@
         "steve_jesok.28jia8kd"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -3106,7 +3106,7 @@
         "nathan_mcnulty.27snymyj"
       ],
       "sourceTrack": "Wingman",
-      "category": null,
+      "category": "Community & Wingman",
       "materials": []
     },
     {
@@ -3126,7 +3126,7 @@
         "kim_oppalfens.27sn3ymy"
       ],
       "sourceTrack": "Happy Hour",
-      "category": null,
+      "category": "Social & Networking",
       "materials": []
     },
     {
@@ -3143,7 +3143,7 @@
       "venue": "Rustic Root",
       "speakerSlugs": [],
       "sourceTrack": "Happy Hour",
-      "category": null,
+      "category": "Social & Networking",
       "materials": []
     }
   ],

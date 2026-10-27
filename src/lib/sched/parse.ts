@@ -10,6 +10,7 @@ import type {
   Speaker,
 } from "../types";
 import { parseSchedDate } from "./datetime";
+import { categorize } from "../taxonomy";
 
 /** Build an absolute URL from a relative Sched href against the edition host. */
 function absolutize(subdomain: string, href: string): string {
@@ -129,7 +130,7 @@ export function parseEdition(html: string, meta: EditionMeta): EditionData {
       venue,
       speakerSlugs,
       sourceTrack,
-      category: null,
+      category: categorize(sourceTrack),
       materials,
     });
   });

@@ -3,6 +3,7 @@ import type { GetStaticPaths } from "astro";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { getAllSessions, getSpeakersForSession } from "../../../lib/data";
 import { formatSessionTime } from "../../../lib/format";
+import { categorySlug } from "../../../lib/taxonomy";
 
 export const getStaticPaths = (() => {
   return getAllSessions().map((view) => ({
@@ -25,7 +26,16 @@ const speakers = getSpeakersForSession(view);
     <h1>{session.title}</h1>
 
     <div class="meta">
-      {session.sourceTrack && <span class="track">{session.sourceTrack}</span>}
+      {
+        session.category && (
+          <a
+            class="track"
+            href={`/categories/${categorySlug(session.category)}/`}
+          >
+            {session.category}
+          </a>
+        )
+      }
       <span>{formatSessionTime(session)}</span>
       {session.venue && <span>{session.venue}</span>}
     </div>
