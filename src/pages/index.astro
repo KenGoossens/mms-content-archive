@@ -1,5 +1,20 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+  getAllEditionData,
+  getSpeakersForSession,
+  type SessionView,
+} from "../lib/data";
+import { formatSessionTime } from "../lib/format";
+
+const editions = getAllEditionData();
+const totalSessions = editions.reduce((n, e) => n + e.sessions.length, 0);
+
+function speakerNames(view: SessionView): string {
+  return getSpeakersForSession(view)
+    .map((s) => s.name)
+    .join(", ");
+}
 ---
 
 <BaseLayout
@@ -8,7 +23,41 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 >
   <h1>MMS Content Archive</h1>
   <p>
-    A searchable archive of MMS (Midwest Management Summit) session content,
-    built from the public Sched schedules. Under construction.
+    Browse {totalSessions} sessions across {editions.length} MMS edition{
+      editions.length === 1 ? "" : "s"
+    }, built from the public Sched schedules.
   </p>
+
+  {
+    editions.map((data) => (
+      <section>
+        <h2>
+          {data.edition.name} <small>· {data.edition.city}</small>
+        </h2>
+        <ul class="session-list">
+          {data.sessions.map((session) => {
+            const view: SessionView = { session, edition: data.edition };
+            const names = speakerNames(view);
+            return (
+              <li>
+                <a href={`/sessions/${data.edition.id}/${session.id}/`}>
+                  {session.title}
+                </a>
+                <div class="meta">
+                  {session.sourceTrack && (
+                    <span class="track">{session.sourceTrack}</span>
+                  )}
+                  <span>{formatSessionTime(session)}</span>
+                  {names && <span>{names}</span>}
+                  {session.materials.length > 0 && (
+                    <span class="has-materials">slides</span>
+                  )}
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    ))
+  }
 </BaseLayout>

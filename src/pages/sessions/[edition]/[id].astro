@@ -1,0 +1,75 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getAllSessions, getSpeakersForSession } from "../../../lib/data";
+import { formatSessionTime } from "../../../lib/format";
+
+export const getStaticPaths = (() => {
+  return getAllSessions().map((view) => ({
+    params: { edition: view.edition.id, id: view.session.id },
+    props: { view },
+  }));
+}) satisfies GetStaticPaths;
+
+const { view } = Astro.props;
+const { session, edition } = view;
+const speakers = getSpeakersForSession(view);
+---
+
+<BaseLayout
+  title={`${session.title} — MMS Content Archive`}
+  description={session.abstract.slice(0, 160)}
+>
+  <article>
+    <p class="breadcrumb"><a href="/">Home</a> › {edition.name}</p>
+    <h1>{session.title}</h1>
+
+    <div class="meta">
+      {session.sourceTrack && <span class="track">{session.sourceTrack}</span>}
+      <span>{formatSessionTime(session)}</span>
+      {session.venue && <span>{session.venue}</span>}
+    </div>
+
+    {
+      speakers.length > 0 && (
+        <p class="speakers">
+          {speakers.map((s, i) => (
+            <>
+              {i > 0 && ", "}
+              <a href={`/speakers/${s.slug}/`}>{s.name}</a>
+            </>
+          ))}
+        </p>
+      )
+    }
+
+    {session.abstract && <p class="abstract">{session.abstract}</p>}
+
+    {
+      session.materials.length > 0 && (
+        <section class="materials">
+          <h2>Materials</h2>
+          <p class="note">
+            Hosted on Sched; some downloads may require a Sched attendee login.
+          </p>
+          <ul>
+            {session.materials.map((m) => (
+              <li>
+                <a href={m.url} rel="noopener noreferrer" target="_blank">
+                  {m.label}
+                </a>
+                {m.ext && <span class="ext"> ({m.ext})</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <p class="source">
+      <a href={session.url} rel="noopener noreferrer" target="_blank"
+        >View on Sched →</a
+      >
+    </p>
+  </article>
+</BaseLayout>
