@@ -1,0 +1,101 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import {
+  getAllSessions,
+  getSpeakersForSession,
+  sessionUrlId,
+  speakerHref,
+} from "../../../lib/data";
+import { formatSessionTime } from "../../../lib/format";
+import { categorySlug } from "../../../lib/taxonomy";
+
+export const getStaticPaths = (() => {
+  return getAllSessions().map((view) => ({
+    params: {
+      edition: view.edition.id,
+      id: sessionUrlId(view.edition.id, view.session.id),
+    },
+    props: { view },
+  }));
+}) satisfies GetStaticPaths;
+
+const { view } = Astro.props;
+const { session, edition } = view;
+const speakers = getSpeakersForSession(view);
+---
+
+<BaseLayout
+  title={`${session.title} — MMS Content Archive`}
+  description={session.abstract.slice(0, 160)}
+>
+  <article data-pagefind-body>
+    <p class="breadcrumb">
+      <a href="/">Home</a> ›
+      <a href={`/editions/${edition.id}/`} data-pagefind-filter="Edition"
+        >{edition.name}</a
+      >
+    </p>
+    <h1>{session.title}</h1>
+
+    <div class="meta">
+      {
+        session.category && (
+          <a
+            class="category-tag"
+            href={`/categories/${categorySlug(session.category)}/`}
+            data-pagefind-filter="Category"
+          >
+            {session.category}
+          </a>
+        )
+      }
+      <span>{formatSessionTime(session)}</span>
+      {session.venue && <span>{session.venue}</span>}
+    </div>
+
+    {
+      speakers.length > 0 && (
+        <p class="speakers">
+          {speakers.map((s, i) => (
+            <>
+              {i > 0 && ", "}
+              <a href={speakerHref(s)} data-pagefind-filter="Speaker">
+                {s.name}
+              </a>
+            </>
+          ))}
+        </p>
+      )
+    }
+
+    {session.abstract && <p class="abstract">{session.abstract}</p>}
+
+    {
+      session.materials.length > 0 && (
+        <section class="materials">
+          <h2>Materials</h2>
+          <p class="note">
+            Hosted on Sched; some downloads may require a Sched attendee login.
+          </p>
+          <ul>
+            {session.materials.map((m) => (
+              <li>
+                <a href={m.url} rel="noopener noreferrer" target="_blank">
+                  {m.label}
+                </a>
+                {m.ext && <span class="ext"> ({m.ext})</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <p class="source">
+      <a href={session.url} rel="noopener noreferrer" target="_blank"
+        >View on Sched →</a
+      >
+    </p>
+  </article>
+</BaseLayout>

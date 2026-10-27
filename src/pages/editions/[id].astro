@@ -1,0 +1,76 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  getAllEditionData,
+  groupRecurring,
+  sessionHref,
+  speakerNames,
+  type SessionView,
+} from "../../lib/data";
+import { formatSessionTime, formatDateRange } from "../../lib/format";
+import { categorySlug } from "../../lib/taxonomy";
+
+export const getStaticPaths = (() => {
+  return getAllEditionData().map((data) => ({
+    params: { id: data.edition.id },
+    props: { data },
+  }));
+}) satisfies GetStaticPaths;
+
+const { data } = Astro.props;
+const views: SessionView[] = data.sessions.map((session) => ({
+  session,
+  edition: data.edition,
+}));
+const grouped = groupRecurring(views);
+---
+
+<BaseLayout
+  title={`${data.edition.name} — MMS Content Archive`}
+  description={`Sessions from ${data.edition.name}.`}
+>
+  <p class="breadcrumb">
+    <a href="/">Home</a> › <a href="/editions/">Editions</a> › {
+      data.edition.name
+    }
+  </p>
+  <h1>{data.edition.name}</h1>
+  <p class="meta">
+    <span>{formatDateRange(data.edition.startDate, data.edition.endDate)}</span>
+    <span>{data.edition.city}</span>
+    <span class="count">{data.sessions.length} sessions</span>
+  </p>
+
+  <ul class="session-list">
+    {
+      grouped.map(({ view, occurrences }) => {
+        const { session } = view;
+        const names = speakerNames(view);
+        return (
+          <li>
+            <a href={sessionHref(view)}>{session.title}</a>
+            {occurrences > 1 && (
+              <span class="recurs">×{occurrences} slots</span>
+            )}
+            <div class="meta">
+              {session.category && (
+                <a
+                  class="category-tag"
+                  href={`/categories/${categorySlug(session.category)}/`}
+                >
+                  {session.category}
+                </a>
+              )}
+              <span>{formatSessionTime(session)}</span>
+              {names && <span>{names}</span>}
+              {session.materials.length > 0 && (
+                <span class="has-materials">slides available</span>
+              )}
+            </div>
+          </li>
+        );
+      })
+    }
+  </ul>
+</BaseLayout>

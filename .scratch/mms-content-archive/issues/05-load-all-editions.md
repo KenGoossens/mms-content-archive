@@ -4,7 +4,7 @@
 
 **Blocked by:** 03.
 
-**Status:** ready-for-agent
+**Status:** done
 
 - [ ] The pipeline ingests all five Editions as data (no hardcoding): MMS 2026 Midway (`mmsmidway.sched.com`), MMS 2026 at MOA (`mms2026atmoa.sched.com`), MMS 2025 Music City (`mms2025music.sched.com`), MMS 2025 at MOA (`mms2025atmoa.sched.com`), MMS 2024 Flamingo (`mms2024fll.sched.com`)
 - [ ] Each Edition's raw Source Tracks are mapped to Categories; any unmapped tracks are reported for follow-up rather than silently defaulted without notice

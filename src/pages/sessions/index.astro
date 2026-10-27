@@ -1,0 +1,81 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  getAllEditionData,
+  groupRecurring,
+  sessionHref,
+  speakerNames,
+  type SessionView,
+} from "../../lib/data";
+import { formatSessionTime } from "../../lib/format";
+import { categorySlug } from "../../lib/taxonomy";
+
+const editions = getAllEditionData();
+const total = editions.reduce((n, e) => n + e.sessions.length, 0);
+---
+
+<BaseLayout
+  title="All sessions — MMS Content Archive"
+  description="Browse every MMS session across all editions in one place."
+>
+  <h1>All sessions</h1>
+  <p class="lede">
+    {total} sessions across {editions.length} editions. Jump to an edition, or
+    <a href="/search/">search</a> to filter by topic, category, or speaker.
+  </p>
+
+  <p class="jump">
+    {
+      editions.map((data, i) => (
+        <>
+          {i > 0 && " · "}
+          <a href={`#${data.edition.id}`}>{data.edition.name}</a>
+        </>
+      ))
+    }
+  </p>
+
+  {
+    editions.map((data) => {
+      const views: SessionView[] = data.sessions.map((session) => ({
+        session,
+        edition: data.edition,
+      }));
+      const grouped = groupRecurring(views);
+      return (
+        <section>
+          <h2 id={data.edition.id}>{data.edition.name}</h2>
+          <ul class="session-list">
+            {grouped.map(({ view, occurrences }) => {
+              const { session } = view;
+              const names = speakerNames(view);
+              return (
+                <li>
+                  <a href={sessionHref(view)}>{session.title}</a>
+                  {occurrences > 1 && (
+                    <span class="recurs">×{occurrences} slots</span>
+                  )}
+                  <div class="meta">
+                    {session.category && (
+                      <a
+                        class="category-tag"
+                        href={`/categories/${categorySlug(session.category)}/`}
+                      >
+                        {session.category}
+                      </a>
+                    )}
+                    <span>{formatSessionTime(session)}</span>
+                    {names && <span>{names}</span>}
+                    {session.materials.length > 0 && (
+                      <span class="has-materials">slides available</span>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      );
+    })
+  }
+</BaseLayout>

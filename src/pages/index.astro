@@ -1,0 +1,63 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+  getAllEditionData,
+  getCategoryCounts,
+  getAllSpeakers,
+} from "../lib/data";
+import { formatDateRange } from "../lib/format";
+import { categorySlug } from "../lib/taxonomy";
+
+const editions = getAllEditionData();
+const totalSessions = editions.reduce((n, e) => n + e.sessions.length, 0);
+const categories = getCategoryCounts();
+const speakerCount = getAllSpeakers().length;
+---
+
+<BaseLayout
+  title="MMS Content Archive"
+  description="An unofficial, community-made searchable archive of MMS (Midwest Management Summit) session content."
+>
+  <h1>MMS Content Archive</h1>
+  <p class="lede">
+    A searchable archive of {totalSessions} sessions across {editions.length} MMS
+    editions, built from the public Sched schedules.
+  </p>
+  <p class="stats">
+    {totalSessions} sessions · {categories.length} categories · {speakerCount} speakers
+  </p>
+  <p>
+    <a href="/sessions/">Browse all sessions</a> or
+    <a href="/search/">search by topic</a>.
+  </p>
+
+  <h2>Editions</h2>
+  <ul class="edition-list">
+    {
+      editions.map((data) => (
+        <li>
+          <a href={`/editions/${data.edition.id}/`}>{data.edition.name}</a>
+          <div class="meta">
+            <span>
+              {formatDateRange(data.edition.startDate, data.edition.endDate)}
+            </span>
+            <span>{data.edition.city}</span>
+            <span class="count">{data.sessions.length} sessions</span>
+          </div>
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2>Browse by category</h2>
+  <ul class="category-list">
+    {
+      categories.map(({ category, count }) => (
+        <li>
+          <a href={`/categories/${categorySlug(category)}/`}>{category}</a>
+          <span class="count">{count}</span>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>

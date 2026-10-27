@@ -1,0 +1,50 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  getAllSpeakers,
+  getSessionsForSpeaker,
+  sessionHref,
+} from "../../lib/data";
+import { formatSessionTime } from "../../lib/format";
+
+export const getStaticPaths = (() => {
+  return getAllSpeakers().map((speaker) => ({
+    params: { slug: speaker.slug },
+    props: { speaker },
+  }));
+}) satisfies GetStaticPaths;
+
+const { speaker } = Astro.props;
+const sessions = getSessionsForSpeaker(speaker.slug);
+---
+
+<BaseLayout
+  title={`${speaker.name} — MMS Content Archive`}
+  description={`Sessions by ${speaker.name}`}
+>
+  <article>
+    <p class="breadcrumb"><a href="/">Home</a> › Speakers</p>
+    <h1>{speaker.name}</h1>
+    <p>
+      <a href={speaker.profileUrl} rel="noopener noreferrer" target="_blank"
+        >Sched profile →</a
+      >
+    </p>
+
+    <h2>Sessions</h2>
+    <ul class="session-list">
+      {
+        sessions.map((view) => (
+          <li>
+            <a href={sessionHref(view)}>{view.session.title}</a>
+            <div class="meta">
+              <span>{view.edition.name}</span>
+              <span>{formatSessionTime(view.session)}</span>
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</BaseLayout>

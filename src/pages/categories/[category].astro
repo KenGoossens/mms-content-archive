@@ -1,0 +1,56 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  getCategoryCounts,
+  getSessionsByCategory,
+  groupRecurring,
+  sessionHref,
+  speakerNames,
+} from "../../lib/data";
+import { categorySlug } from "../../lib/taxonomy";
+import { formatSessionTime } from "../../lib/format";
+
+export const getStaticPaths = (() => {
+  return getCategoryCounts().map(({ category }) => ({
+    params: { category: categorySlug(category) },
+    props: { category },
+  }));
+}) satisfies GetStaticPaths;
+
+const { category } = Astro.props;
+const sessions = getSessionsByCategory(category);
+const grouped = groupRecurring(sessions);
+---
+
+<BaseLayout
+  title={`${category} — MMS Content Archive`}
+  description={`MMS sessions in ${category}.`}
+>
+  <p class="breadcrumb">
+    <a href="/">Home</a> › <a href="/categories/">Categories</a> › {category}
+  </p>
+  <h1>{category}</h1>
+  <p>{sessions.length} session{sessions.length === 1 ? "" : "s"}</p>
+
+  <ul class="session-list">
+    {
+      grouped.map(({ view, occurrences }) => {
+        const names = speakerNames(view);
+        return (
+          <li>
+            <a href={sessionHref(view)}>{view.session.title}</a>
+            {occurrences > 1 && (
+              <span class="recurs">×{occurrences} slots</span>
+            )}
+            <div class="meta">
+              <span>{view.edition.name}</span>
+              <span>{formatSessionTime(view.session)}</span>
+              {names && <span>{names}</span>}
+            </div>
+          </li>
+        );
+      })
+    }
+  </ul>
+</BaseLayout>

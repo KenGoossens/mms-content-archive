@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCategoryCounts } from "../../lib/data";
+import { categorySlug } from "../../lib/taxonomy";
+
+const categories = getCategoryCounts();
+---
+
+<BaseLayout
+  title="Categories — MMS Content Archive"
+  description="Browse MMS sessions by topic category."
+>
+  <p class="breadcrumb"><a href="/">Home</a> › Categories</p>
+  <h1>Categories</h1>
+  <p>
+    Browse sessions by topic area. Categories are normalized from Sched's raw
+    session types.
+  </p>
+
+  <ul class="category-list">
+    {
+      categories.map(({ category, count }) => (
+        <li>
+          <a href={`/categories/${categorySlug(category)}/`}>{category}</a>
+          <span class="count">{count}</span>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>

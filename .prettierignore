@@ -1,0 +1,9 @@
+node_modules
+dist
+.astro
+public/pagefind
+src/data
+test/fixtures
+.scratch
+pnpm-lock.yaml
+package-lock.json

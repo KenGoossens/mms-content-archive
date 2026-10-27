@@ -4,7 +4,7 @@
 
 **Blocked by:** 01.
 
-**Status:** ready-for-agent
+**Status:** done
 
 - [ ] A thin fetch layer pulls the Edition's public Sched pages (prefer `/list/descriptions`), rate-limited under 30 req/min with an explicit User-Agent; the fetch is injectable so normalization can run from saved HTML without the network
 - [ ] A normalize transform turns raw Sched HTML into `Edition`, `Session`, and `Speaker` records (glossary-aligned): Session has stable id (from Sched's session key/slug), title, full abstract, start/end, venue, speaker ids, raw Source Track(s), and a nullable Material link
