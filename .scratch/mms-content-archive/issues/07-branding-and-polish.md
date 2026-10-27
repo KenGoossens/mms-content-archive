@@ -4,7 +4,7 @@
 
 **Blocked by:** 06.
 
-**Status:** ready-for-agent
+**Status:** done
 
 - [ ] MMS-inspired palette and typography (echoing the MMS look without reproducing the official logo/trademark)
 - [ ] A subtle gradient-grid background applied consistently

@@ -1,6 +1,6 @@
 ---
-// Minimal shared layout. Visual branding (MMS-inspired palette, gradient grid,
-// disclaimer) is applied in ticket 07; this keeps every page consistent for now.
+import "../styles/global.css";
+
 interface Props {
   title: string;
   description?: string;
@@ -15,9 +15,15 @@ const { title, description } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;650;800&display=swap"
+    />
   </head>
   <body>
-    <header>
+    <header class="site-header">
       <a href="/" class="brand">MMS Content Archive</a>
       <nav>
         <a href="/">Home</a>
@@ -25,10 +31,25 @@ const { title, description } = Astro.props;
         <a href="/editions/">Editions</a>
         <a href="/categories/">Categories</a>
       </nav>
-      <p><small>Unofficial, community-made. Not affiliated with MMS.</small></p>
+      <p class="disclaimer">
+        Unofficial, community-made archive — not affiliated with or endorsed by
+        MMS.
+      </p>
     </header>
     <main>
       <slot />
     </main>
+    <footer class="site-footer">
+      <p>
+        An unofficial, community-made archive of <strong>MMS</strong> (Midwest Management
+        Summit) session content, built from the public
+        <a href="https://sched.com" rel="noopener noreferrer" target="_blank"
+          >Sched</a
+        >
+        schedules. Not affiliated with or endorsed by MMS. Session materials link
+        to their original location on Sched and are not re-hosted; some downloads
+        may require a Sched attendee login.
+      </p>
+    </footer>
   </body>
 </html>
