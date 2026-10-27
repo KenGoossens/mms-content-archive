@@ -1,5 +1,7 @@
 // Domain model for the MMS Content Archive. Vocabulary follows CONTEXT.md.
 
+import type { Category } from "./taxonomy";
+
 /** One occurrence of MMS, identified by its own Sched subdomain. */
 export interface EditionMeta {
   /** Stable slug used in URLs and data filenames, e.g. "mms-2026-midway". */
@@ -62,7 +64,7 @@ export interface Session {
   /** Top-level Sched session type (the only track granularity the HTML exposes). */
   sourceTrack: string | null;
   /** Normalized Category (ticket 03); null until the taxonomy is applied. */
-  category: string | null;
+  category: Category | null;
   materials: Material[];
 }
 

@@ -1,11 +1,24 @@
 // Build smoke test (tickets 06 & 07): verify the static build produced the
 // expected pages and the Pagefind search index. Run after `npm run build`.
 
-import { existsSync, readdirSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 const DIST = "dist";
-const EXPECTED_SESSIONS = 757;
+const DATA_DIR = join("src", "data", "editions");
+
+// Derive the expected session count from the committed data so the gate adapts
+// to re-ingests instead of relying on a hardcoded number.
+const EXPECTED_SESSIONS = existsSync(DATA_DIR)
+  ? readdirSync(DATA_DIR)
+      .filter((f) => f.endsWith(".json"))
+      .reduce(
+        (n, f) =>
+          n +
+          JSON.parse(readFileSync(join(DATA_DIR, f), "utf8")).sessions.length,
+        0,
+      )
+  : 0;
 
 let failed = false;
 function check(ok, msg) {
@@ -34,13 +47,21 @@ check(
   existsSync(join(DIST, "pagefind", "pagefind.js")),
   "pagefind search index built",
 );
+check(
+  existsSync(join(DIST, "sessions", "index.html")),
+  "all-sessions list built",
+);
 
-const sessions = existsSync(join(DIST, "sessions"))
-  ? countIndexHtml(join(DIST, "sessions"))
+// Session detail pages live at sessions/<edition>/<id>/index.html; exclude the
+// all-sessions listing page (sessions/index.html) from the detail-page count.
+const sessionsDir = join(DIST, "sessions");
+const sessionDetailPages = existsSync(sessionsDir)
+  ? countIndexHtml(sessionsDir) -
+    (existsSync(join(sessionsDir, "index.html")) ? 1 : 0)
   : 0;
 check(
-  sessions === EXPECTED_SESSIONS,
-  `${EXPECTED_SESSIONS} session pages (got ${sessions})`,
+  sessionDetailPages === EXPECTED_SESSIONS,
+  `${EXPECTED_SESSIONS} session pages (got ${sessionDetailPages})`,
 );
 
 const speakers = existsSync(join(DIST, "speakers"))

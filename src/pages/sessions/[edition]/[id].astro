@@ -5,6 +5,7 @@ import {
   getAllSessions,
   getSpeakersForSession,
   sessionUrlId,
+  speakerHref,
 } from "../../../lib/data";
 import { formatSessionTime } from "../../../lib/format";
 import { categorySlug } from "../../../lib/taxonomy";
@@ -41,7 +42,7 @@ const speakers = getSpeakersForSession(view);
       {
         session.category && (
           <a
-            class="track"
+            class="category-tag"
             href={`/categories/${categorySlug(session.category)}/`}
             data-pagefind-filter="Category"
           >
@@ -59,7 +60,7 @@ const speakers = getSpeakersForSession(view);
           {speakers.map((s, i) => (
             <>
               {i > 0 && ", "}
-              <a href={`/speakers/${s.slug}/`} data-pagefind-filter="Speaker">
+              <a href={speakerHref(s)} data-pagefind-filter="Speaker">
                 {s.name}
               </a>
             </>

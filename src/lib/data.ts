@@ -3,11 +3,18 @@
 // Only imported from .astro pages — tests import the pipeline modules directly.
 
 import type { EditionData, EditionMeta, Session, Speaker } from "./types";
+import { UNCATEGORIZED } from "./taxonomy";
+import { slugify } from "./slug";
 
 const modules = import.meta.glob<EditionData>("../data/editions/*.json", {
   eager: true,
   import: "default",
 });
+
+/** Normalize a speaker name for cross-edition identity matching. */
+function normName(name: string): string {
+  return name.trim().toLowerCase().replace(/\s+/g, " ");
+}
 
 export interface SessionView {
   session: Session;
@@ -57,22 +64,41 @@ export function getSpeaker(
   return data?.speakers.find((s) => s.slug === slug);
 }
 
-/**
- * All distinct speakers across editions, keyed by slug. Where the same slug
- * appears in multiple editions the first name wins (cross-edition identity
- * merging by name is a later refinement).
- */
-export function getAllSpeakers(): Speaker[] {
-  const map = new Map<string, Speaker>();
+// A person may appear in several editions under different Sched slugs, so
+// speaker identity is keyed by normalized name. The first-seen speaker is the
+// representative (its slug owns the URL); every slug for that name maps to it.
+const speakerByName = (() => {
+  const rep = new Map<string, Speaker>();
   for (const data of getAllEditionData()) {
-    for (const sp of data.speakers) if (!map.has(sp.slug)) map.set(sp.slug, sp);
+    for (const sp of data.speakers) {
+      const key = normName(sp.name);
+      if (!rep.has(key)) rep.set(key, sp);
+    }
   }
-  return [...map.values()].sort((a, b) => a.name.localeCompare(b.name));
+  return rep;
+})();
+
+/** All distinct speakers across editions, merged by name. */
+export function getAllSpeakers(): Speaker[] {
+  return [...speakerByName.values()].sort((a, b) =>
+    a.name.localeCompare(b.name),
+  );
 }
 
-/** Every session a speaker slug appears in, across editions. */
+/** The archive path for a speaker, routed through their representative slug. */
+export function speakerHref(speaker: Speaker): string {
+  const rep = speakerByName.get(normName(speaker.name)) ?? speaker;
+  return `/speakers/${rep.slug}/`;
+}
+
+/** Every session a speaker appears in, across editions, matched by name. */
 export function getSessionsForSpeaker(slug: string): SessionView[] {
-  return getAllSessions().filter((v) => v.session.speakerSlugs.includes(slug));
+  const rep = [...speakerByName.values()].find((s) => s.slug === slug);
+  if (!rep) return [];
+  const name = normName(rep.name);
+  return getAllSessions().filter((v) =>
+    getSpeakersForSession(v).some((s) => normName(s.name) === name),
+  );
 }
 
 export function getSpeakersForSession(view: SessionView): Speaker[] {
@@ -85,11 +111,18 @@ export function getSpeakersForSession(view: SessionView): Speaker[] {
     .filter((s): s is Speaker => Boolean(s));
 }
 
+/** Comma-separated speaker names for a session (shared by listing pages). */
+export function speakerNames(view: SessionView): string {
+  return getSpeakersForSession(view)
+    .map((s) => s.name)
+    .join(", ");
+}
+
 /** Categories that actually have sessions, in taxonomy order, with counts. */
 export function getCategoryCounts(): { category: string; count: number }[] {
   const counts = new Map<string, number>();
   for (const { session } of getAllSessions()) {
-    const c = session.category ?? "Uncategorized";
+    const c = session.category ?? UNCATEGORIZED;
     counts.set(c, (counts.get(c) ?? 0) + 1);
   }
   return [...counts.entries()]
@@ -111,11 +144,7 @@ const urlIdMaps = (() => {
   for (const data of getAllEditionData()) {
     const used = new Set<string>();
     for (const s of data.sessions) {
-      const base =
-        s.id
-          .toLowerCase()
-          .replace(/[^a-z0-9]+/g, "-")
-          .replace(/^-+|-+$/g, "") || "s";
+      const base = slugify(s.id) || "s";
       let candidate = base;
       let i = 2;
       while (used.has(candidate)) candidate = `${base}-${i++}`;

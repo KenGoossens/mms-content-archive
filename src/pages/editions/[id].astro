@@ -3,9 +3,9 @@ import type { GetStaticPaths } from "astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import {
   getAllEditionData,
-  getSpeakersForSession,
   groupRecurring,
   sessionHref,
+  speakerNames,
   type SessionView,
 } from "../../lib/data";
 import { formatSessionTime, formatDateRange } from "../../lib/format";
@@ -24,12 +24,6 @@ const views: SessionView[] = data.sessions.map((session) => ({
   edition: data.edition,
 }));
 const grouped = groupRecurring(views);
-
-function speakerNames(view: SessionView): string {
-  return getSpeakersForSession(view)
-    .map((s) => s.name)
-    .join(", ");
-}
 ---
 
 <BaseLayout
@@ -62,7 +56,7 @@ function speakerNames(view: SessionView): string {
             <div class="meta">
               {session.category && (
                 <a
-                  class="track"
+                  class="category-tag"
                   href={`/categories/${categorySlug(session.category)}/`}
                 >
                   {session.category}
@@ -71,7 +65,7 @@ function speakerNames(view: SessionView): string {
               <span>{formatSessionTime(session)}</span>
               {names && <span>{names}</span>}
               {session.materials.length > 0 && (
-                <span class="has-materials">slides</span>
+                <span class="has-materials">slides available</span>
               )}
             </div>
           </li>

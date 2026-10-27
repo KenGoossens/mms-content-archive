@@ -7,6 +7,8 @@
 // editions are added. Unmapped tracks fall back to UNCATEGORIZED and are surfaced
 // as warnings during ingest rather than silently dropped.
 
+import { slugify } from "./slug";
+
 export const UNCATEGORIZED = "Uncategorized";
 
 /** The curated Categories, in display order. */
@@ -54,20 +56,19 @@ const TRACK_TO_CATEGORY: Record<string, Category> = {
   welcome: "Social & Networking",
   social: "Social & Networking",
   networking: "Social & Networking",
-  keynote: "Social & Networking",
   sponsor: "Sponsor",
   other: "Other",
 };
+
+/** The raw Source Track strings with an explicit mapping (used by tests). */
+export const KNOWN_TRACKS = Object.keys(TRACK_TO_CATEGORY);
 
 const normalize = (track: string) =>
   track.toLowerCase().replace(/\s+/g, " ").trim();
 
 /** URL-safe slug for a Category, e.g. "Azure & Cloud" -> "azure-cloud". */
 export function categorySlug(category: string): string {
-  return category
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+  return slugify(category);
 }
 
 /** Resolve a Category from its slug, or undefined. */

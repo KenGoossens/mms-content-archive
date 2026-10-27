@@ -4,9 +4,9 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import {
   getCategoryCounts,
   getSessionsByCategory,
-  getSpeakersForSession,
   groupRecurring,
   sessionHref,
+  speakerNames,
 } from "../../lib/data";
 import { categorySlug } from "../../lib/taxonomy";
 import { formatSessionTime } from "../../lib/format";
@@ -36,9 +36,7 @@ const grouped = groupRecurring(sessions);
   <ul class="session-list">
     {
       grouped.map(({ view, occurrences }) => {
-        const names = getSpeakersForSession(view)
-          .map((s) => s.name)
-          .join(", ");
+        const names = speakerNames(view);
         return (
           <li>
             <a href={sessionHref(view)}>{view.session.title}</a>

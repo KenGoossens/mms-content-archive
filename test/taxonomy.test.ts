@@ -3,11 +3,22 @@ import {
   categorize,
   isMappedTrack,
   CATEGORIES,
+  KNOWN_TRACKS,
   UNCATEGORIZED,
 } from "../src/lib/taxonomy";
 
 describe("taxonomy", () => {
-  it("maps known Source Tracks to a defined Category", () => {
+  it("resolves every known Source Track to a defined, non-default Category", () => {
+    expect(KNOWN_TRACKS.length).toBeGreaterThan(0);
+    for (const track of KNOWN_TRACKS) {
+      const category = categorize(track);
+      expect(CATEGORIES).toContain(category);
+      expect(category).not.toBe(UNCATEGORIZED);
+      expect(isMappedTrack(track)).toBe(true);
+    }
+  });
+
+  it("maps representative tracks to their expected Category", () => {
     const cases: Record<string, string> = {
       Intune: "Endpoint Management",
       ConfigMgr: "Configuration Manager",
@@ -16,14 +27,13 @@ describe("taxonomy", () => {
       Azure: "Azure & Cloud",
       PowerShell: "Automation & Scripting",
       Wingman: "Community & Wingman",
+      "Jam Session": "Community & Wingman",
       "Happy Hour": "Social & Networking",
       Sponsor: "Sponsor",
       Other: "Other",
     };
     for (const [track, category] of Object.entries(cases)) {
       expect(categorize(track)).toBe(category);
-      expect(CATEGORIES).toContain(category);
-      expect(isMappedTrack(track)).toBe(true);
     }
   });
 

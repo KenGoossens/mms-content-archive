@@ -29,6 +29,24 @@ const clean = (s: string | undefined | null) =>
   (s ?? "").replace(/\s+/g, " ").trim();
 
 /**
+ * Pull the description text out of the first `div.tip-description` under a root,
+ * stripping Sched's "See More" link and reporting whether the text was truncated
+ * (the list page shows an excerpt; the detail page shows the full abstract).
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function extractAbstract($: cheerio.CheerioAPI, $root: cheerio.Cheerio<any>) {
+  const $desc = $root.find("div.tip-description").first().clone();
+  let truncated = false;
+  $desc.find("a").each((_, a) => {
+    if (/see more/i.test($(a).text())) {
+      truncated = true;
+      $(a).remove();
+    }
+  });
+  return { text: clean($desc.text()), truncated };
+}
+
+/**
  * Parse one edition's `/list/descriptions` page into Edition/Session/Speaker
  * records. `meta` supplies the edition identity (and host for absolutizing URLs).
  */
@@ -48,14 +66,10 @@ export function parseEdition(html: string, meta: EditionMeta): EditionData {
       clean($name.text());
     if (!id || !title) return; // not a real session row
 
-    // Abstract: the list page truncates and appends a "See More" link.
-    const $desc = $c.find("div.tip-description").first().clone();
-    $desc.find("a").each((_, a) => {
-      if (/see more/i.test($(a).text())) $(a).remove();
-    });
-    const abstract = clean($desc.text())
-      .replace(/\s*\.\.\.\s*$/, "")
-      .trim();
+    // Abstract: the list page shows a truncated excerpt with a "See More" link.
+    const { text, truncated } = extractAbstract($, $c);
+    let abstract = text.replace(/\s*\.\.\.\s*$/, "").trim();
+    if (truncated && abstract) abstract += " …";
 
     // Date / time.
     const dateRaw = clean($c.find("div.list-single__date").first().text());
@@ -147,9 +161,5 @@ export function parseEdition(html: string, meta: EditionMeta): EditionData {
  */
 export function parseSessionAbstract(html: string): string {
   const $ = cheerio.load(html);
-  const $desc = $("div.tip-description").first().clone();
-  $desc.find("a").each((_, a) => {
-    if (/see more/i.test($(a).text())) $(a).remove();
-  });
-  return clean($desc.text());
+  return extractAbstract($, $.root()).text;
 }
