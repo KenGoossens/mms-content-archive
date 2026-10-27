@@ -100,3 +100,31 @@ export function getCategoryCounts(): { category: string; count: number }[] {
 export function getSessionsByCategory(category: string): SessionView[] {
   return getAllSessions().filter((v) => v.session.category === category);
 }
+
+export interface GroupedSession {
+  /** The earliest occurrence, used as the representative/link target. */
+  view: SessionView;
+  /** How many times this title recurs in the same edition (1 = not recurring). */
+  occurrences: number;
+}
+
+/**
+ * Collapse recurring same-title slots within an edition into one entry (e.g.
+ * Music City's 60 "MSFT Jam Session" 20-minute slots), keeping the earliest and
+ * counting the rest, so listings stay sensible. Input order is preserved.
+ */
+export function groupRecurring(views: SessionView[]): GroupedSession[] {
+  const groups = new Map<string, GroupedSession>();
+  const order: string[] = [];
+  for (const view of views) {
+    const key = `${view.edition.id}::${view.session.title.trim().toLowerCase()}`;
+    const existing = groups.get(key);
+    if (existing) {
+      existing.occurrences += 1;
+    } else {
+      groups.set(key, { view, occurrences: 1 });
+      order.push(key);
+    }
+  }
+  return order.map((k) => groups.get(k)!);
+}

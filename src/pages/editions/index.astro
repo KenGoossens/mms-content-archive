@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getAllEditionData } from "../../lib/data";
+import { formatDateRange } from "../../lib/format";
+
+const editions = getAllEditionData();
+---
+
+<BaseLayout
+  title="Editions — MMS Content Archive"
+  description="All MMS editions in the archive."
+>
+  <p class="breadcrumb"><a href="/">Home</a> › Editions</p>
+  <h1>Editions</h1>
+  <ul class="edition-list">
+    {
+      editions.map((data) => (
+        <li>
+          <a href={`/editions/${data.edition.id}/`}>{data.edition.name}</a>
+          <div class="meta">
+            <span>
+              {formatDateRange(data.edition.startDate, data.edition.endDate)}
+            </span>
+            <span>{data.edition.city}</span>
+            <span class="count">{data.sessions.length} sessions</span>
+          </div>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>

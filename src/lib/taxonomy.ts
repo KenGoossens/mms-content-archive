@@ -49,6 +49,7 @@ const TRACK_TO_CATEGORY: Record<string, Category> = {
   scripting: "Automation & Scripting",
   wingman: "Community & Wingman",
   community: "Community & Wingman",
+  "jam session": "Community & Wingman",
   "happy hour": "Social & Networking",
   welcome: "Social & Networking",
   social: "Social & Networking",

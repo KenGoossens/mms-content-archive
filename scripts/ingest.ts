@@ -20,6 +20,9 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 // Offline fetcher: resolve each edition's /list/descriptions to a saved fixture.
 const FIXTURES: Record<string, string> = {
   "mms-2026-midway": "midway_descriptions.html",
+  "mms-2026-moa": "moa2026_descriptions.html",
+  "mms-2025-music-city": "music2025_descriptions.html",
+  "mms-2025-moa": "moa2025_descriptions.html",
   "mms-2024-flamingo": "fll2024_descriptions.html",
 };
 function fixtureFetcher(): Fetcher {

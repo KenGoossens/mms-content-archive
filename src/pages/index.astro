@@ -2,19 +2,16 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import {
   getAllEditionData,
-  getSpeakersForSession,
-  type SessionView,
+  getCategoryCounts,
+  getAllSpeakers,
 } from "../lib/data";
-import { formatSessionTime } from "../lib/format";
+import { formatDateRange } from "../lib/format";
+import { categorySlug } from "../lib/taxonomy";
 
 const editions = getAllEditionData();
 const totalSessions = editions.reduce((n, e) => n + e.sessions.length, 0);
-
-function speakerNames(view: SessionView): string {
-  return getSpeakersForSession(view)
-    .map((s) => s.name)
-    .join(", ");
-}
+const categories = getCategoryCounts();
+const speakerCount = getAllSpeakers().length;
 ---
 
 <BaseLayout
@@ -22,42 +19,41 @@ function speakerNames(view: SessionView): string {
   description="An unofficial, community-made searchable archive of MMS (Midwest Management Summit) session content."
 >
   <h1>MMS Content Archive</h1>
-  <p>
-    Browse {totalSessions} sessions across {editions.length} MMS edition{
-      editions.length === 1 ? "" : "s"
-    }, built from the public Sched schedules.
+  <p class="lede">
+    A searchable archive of {totalSessions} sessions across {editions.length} MMS
+    editions, built from the public Sched schedules.
+  </p>
+  <p class="stats">
+    {totalSessions} sessions · {categories.length} categories · {speakerCount} speakers
   </p>
 
-  {
-    editions.map((data) => (
-      <section>
-        <h2>
-          {data.edition.name} <small>· {data.edition.city}</small>
-        </h2>
-        <ul class="session-list">
-          {data.sessions.map((session) => {
-            const view: SessionView = { session, edition: data.edition };
-            const names = speakerNames(view);
-            return (
-              <li>
-                <a href={`/sessions/${data.edition.id}/${session.id}/`}>
-                  {session.title}
-                </a>
-                <div class="meta">
-                  {session.sourceTrack && (
-                    <span class="track">{session.sourceTrack}</span>
-                  )}
-                  <span>{formatSessionTime(session)}</span>
-                  {names && <span>{names}</span>}
-                  {session.materials.length > 0 && (
-                    <span class="has-materials">slides</span>
-                  )}
-                </div>
-              </li>
-            );
-          })}
-        </ul>
-      </section>
-    ))
-  }
+  <h2>Editions</h2>
+  <ul class="edition-list">
+    {
+      editions.map((data) => (
+        <li>
+          <a href={`/editions/${data.edition.id}/`}>{data.edition.name}</a>
+          <div class="meta">
+            <span>
+              {formatDateRange(data.edition.startDate, data.edition.endDate)}
+            </span>
+            <span>{data.edition.city}</span>
+            <span class="count">{data.sessions.length} sessions</span>
+          </div>
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2>Browse by category</h2>
+  <ul class="category-list">
+    {
+      categories.map(({ category, count }) => (
+        <li>
+          <a href={`/categories/${categorySlug(category)}/`}>{category}</a>
+          <span class="count">{count}</span>
+        </li>
+      ))
+    }
+  </ul>
 </BaseLayout>

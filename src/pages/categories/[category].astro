@@ -5,6 +5,7 @@ import {
   getCategoryCounts,
   getSessionsByCategory,
   getSpeakersForSession,
+  groupRecurring,
 } from "../../lib/data";
 import { categorySlug } from "../../lib/taxonomy";
 import { formatSessionTime } from "../../lib/format";
@@ -18,6 +19,7 @@ export const getStaticPaths = (() => {
 
 const { category } = Astro.props;
 const sessions = getSessionsByCategory(category);
+const grouped = groupRecurring(sessions);
 ---
 
 <BaseLayout
@@ -32,7 +34,7 @@ const sessions = getSessionsByCategory(category);
 
   <ul class="session-list">
     {
-      sessions.map((view) => {
+      grouped.map(({ view, occurrences }) => {
         const names = getSpeakersForSession(view)
           .map((s) => s.name)
           .join(", ");
@@ -41,6 +43,9 @@ const sessions = getSessionsByCategory(category);
             <a href={`/sessions/${view.edition.id}/${view.session.id}/`}>
               {view.session.title}
             </a>
+            {occurrences > 1 && (
+              <span class="recurs">×{occurrences} slots</span>
+            )}
             <div class="meta">
               <span>{view.edition.name}</span>
               <span>{formatSessionTime(view.session)}</span>

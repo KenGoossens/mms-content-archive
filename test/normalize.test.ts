@@ -86,6 +86,27 @@ describe("parseEdition — MMS 2024 Flamingo (ended, has materials)", () => {
   });
 });
 
+describe("parseEdition — every edition fixture (inter-edition drift)", () => {
+  const cases: [string, string, number][] = [
+    ["mms-2026-midway", "midway_descriptions.html", 165],
+    ["mms-2026-moa", "moa2026_descriptions.html", 151],
+    ["mms-2025-music-city", "music2025_descriptions.html", 207],
+    ["mms-2025-moa", "moa2025_descriptions.html", 147],
+    ["mms-2024-flamingo", "fll2024_descriptions.html", 87],
+  ];
+
+  it.each(cases)("parses %s with stable fields", (editionId, file, count) => {
+    const data = parse(editionId, file);
+    expect(data.sessions.length).toBe(count);
+    // Every session has a stable id, a title, and a Category.
+    expect(data.sessions.every((s) => s.id && s.title && s.category)).toBe(
+      true,
+    );
+    // Ids are unique within the edition.
+    expect(new Set(data.sessions.map((s) => s.id)).size).toBe(count);
+  });
+});
+
 describe("parseSchedDate", () => {
   it("parses a full Sched date/time string", () => {
     expect(

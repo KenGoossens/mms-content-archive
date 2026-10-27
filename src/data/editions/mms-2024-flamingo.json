@@ -1,0 +1,2576 @@
+{
+  "edition": {
+    "id": "mms-2024-flamingo",
+    "name": "MMS 2024 Flamingo Edition",
+    "subdomain": "mms2024fll.sched.com",
+    "startDate": "2024-10-20",
+    "endDate": "2024-10-23",
+    "city": "Fort Lauderdale, FL"
+  },
+  "sessions": [
+    {
+      "id": "1mMxR",
+      "editionId": "mms-2024-flamingo",
+      "title": "Conquering the Summit! Your Guide to MMS",
+      "url": "https://mms2024fll.sched.com/event/1mMxR",
+      "abstract": "Learn how to navigate the schedule, network like a pro, and unlock the event's full potential.",
+      "abstractFull": false,
+      "start": "2024-10-20T17:00:00",
+      "end": "2024-10-20T18:00:00",
+      "timezone": "EDT",
+      "dateLabel": "Sunday October 20, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [],
+      "sourceTrack": "Other",
+      "category": "Other",
+      "materials": []
+    },
+    {
+      "id": "1j4uA",
+      "editionId": "mms-2024-flamingo",
+      "title": "Welcome Reception - Pool Party",
+      "url": "https://mms2024fll.sched.com/event/1j4uA",
+      "abstract": "Description:Join us poolside for a tropical evening of live music, delicious appetizers, refreshing drinks, and swaying palm trees—all with a stunning ocean view! It's the perfect spot to mingle with speakers and fellow attendees while soaking up the relaxed, beachy vibes. Everyone with a badge is welcome!",
+      "abstractFull": false,
+      "start": "2024-10-20T18:00:00",
+      "end": "2024-10-20T20:00:00",
+      "timezone": "EDT",
+      "dateLabel": "Sunday October 20, 2024",
+      "venue": "Pool",
+      "speakerSlugs": [],
+      "sourceTrack": "Happy Hour",
+      "category": "Social & Networking",
+      "materials": []
+    },
+    {
+      "id": "1g1s3",
+      "editionId": "mms-2024-flamingo",
+      "title": "Demystifying Azure Spend: Cost Analysis and Savings Strategies",
+      "url": "https://mms2024fll.sched.com/event/1g1s3",
+      "abstract": "Description:Curious about the cost of using Azure? We'll will provide you with insights on how to get more for less. Whether you're building a containerized app, leveraging storage, or thinking about security, we will help you figure out the cost of your solution and what levers you can pull to save money. Learn about Microsoft Azure Commit to Consume, Reservations, and Savings Plans to optimize",
+      "abstractFull": false,
+      "start": "2024-10-21T08:00:00",
+      "end": "2024-10-21T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Rio Vista",
+      "speakerSlugs": [
+        "andreas_sobczyk.1xqa96ke",
+        "chad_lich.27sn47yv"
+      ],
+      "sourceTrack": "Azure",
+      "category": "Azure & Cloud",
+      "materials": [
+        {
+          "label": "Demystifying Azure Spend Cost Analysis and Savings Strategies",
+          "url": "https://hosted-files.sched.co/mms2024fll/93/Demystifying%20Azure%20Spend%20-%20Cost%20Analysis%20and%20Savings%20Strategies.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1eiJN",
+      "editionId": "mms-2024-flamingo",
+      "title": "ConfigMgr Fundamentals for Intermediate Admins - Part 1",
+      "url": "https://mms2024fll.sched.com/event/1eiJN",
+      "abstract": "Description:This 2-part session is designed to improve your ConfigMgr skills. Part 1 will cover infrastructure planning, security, and infrastructure health management. Attend both sessions to level up your ConfigMgr skills.What you will learn:Planning and setting up your infrastructureManaging security and accessMonitoring the health of your infrastructureTroubleshooting common infrastructure",
+      "abstractFull": false,
+      "start": "2024-10-21T08:00:00",
+      "end": "2024-10-21T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "kent_agerlund.1xngh2qj",
+        "chris.sires"
+      ],
+      "sourceTrack": "ConfigMgr",
+      "category": "Configuration Manager",
+      "materials": [
+        {
+          "label": "LabGuideInfo",
+          "url": "https://hosted-files.sched.co/mms2024fll/83/LabGuideInfo.txt",
+          "ext": "txt"
+        },
+        {
+          "label": "WSUSAppPool",
+          "url": "https://hosted-files.sched.co/mms2024fll/61/WSUSAppPool.zip",
+          "ext": "zip"
+        },
+        {
+          "label": "ConfigMgr Fundamentals for Intermediate admins part 1",
+          "url": "https://hosted-files.sched.co/mms2024fll/ec/ConfigMgr%20Fundamentals%20for%20Intermediate%20admins%20part%201.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egVJ",
+      "editionId": "mms-2024-flamingo",
+      "title": "10 Intune Mistakes to Avoid for Optimal Endpoint Management (Option 1)",
+      "url": "https://mms2024fll.sched.com/event/1egVJ",
+      "abstract": "Description:Unlock Intune's full potential! Learn about the top 10 common mistakes in Intune and how to avoid them, leveraging cutting-edge Intune technologies. Discover best practices for optimal endpoint management, application delivery, and robust security across PCs, macOS, and mobile devices. Walk away with inspirational ideas ready to use in your environment.What you will learn:Avoid common",
+      "abstractFull": false,
+      "start": "2024-10-21T08:00:00",
+      "end": "2024-10-21T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "sandy_zeng.27sn4def",
+        "simon_skotheimsvik.7z9wjar"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "10 Intune Mistakes to Avoid for Optimal Endpoint Management Handouts",
+          "url": "https://hosted-files.sched.co/mms2024fll/b3/10%20Intune%20Mistakes%20to%20Avoid%20for%20Optimal%20Endpoint%20Management%20Handouts.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1nObE",
+      "editionId": "mms-2024-flamingo",
+      "title": "Intune Tips and Tricks - 2024 Fall Edition (Option 1)",
+      "url": "https://mms2024fll.sched.com/event/1nObE",
+      "abstract": "Description:Learn the latest tips and tricks for Intune administrators. We'll provide you with simple tips to work smarter, not harder, and explore hidden features using PowerShell. Discover how to automate tasks and processes, improve your workflow and tasks using PowerApps, and much more. We'll help you take your Intune administration to the next level.What you will learn:Learn about hidden",
+      "abstractFull": false,
+      "start": "2024-10-21T08:00:00",
+      "end": "2024-10-21T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "peter_daalmans.28j9d0cg",
+        "tim_de_keukelaere.1sw4e0pu"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "MMSFLL2024 IntuneTipsAndTricks v1.0F Full",
+          "url": "https://hosted-files.sched.co/mms2024fll/67/MMSFLL2024-IntuneTipsAndTricks%20-%20v1.0F%20-%20Full.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1egXB",
+      "editionId": "mms-2024-flamingo",
+      "title": "Mastering KQL: Interactive Learning and Practical Application",
+      "url": "https://mms2024fll.sched.com/event/1egXB",
+      "abstract": "Description:Explore the world of Kusto Query Language (KQL) in this interactive, hands-on session. Whether you're a beginner or a seasoned pro, you'll learn to navigate the core concepts and advanced techniques of KQL through expert-led demonstrations and collaborative exercises. This mini-workshop will guide you in crafting your own queries and using KQL to extract valuable insights from your",
+      "abstractFull": false,
+      "start": "2024-10-21T08:00:00",
+      "end": "2024-10-21T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "rod_trent.28kie72h",
+        "sergey.chubarov"
+      ],
+      "sourceTrack": "Other",
+      "category": "Other",
+      "materials": [
+        {
+          "label": "Learning KQL",
+          "url": "https://hosted-files.sched.co/mms2024fll/af/Learning%20KQL.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1eiHa",
+      "editionId": "mms-2024-flamingo",
+      "title": "Performance Optimization in PowerShell",
+      "url": "https://mms2024fll.sched.com/event/1eiHa",
+      "abstract": "Description:We'll explore the various methods used in PowerShell for better performance. Learn when to optimize, how to implement threading, and best practices for faster scripts.What you will learn:Business cases for optimizing scriptsOptimizing vs. leaving scripts as-isSafe implementation of threadingBest practices for faster scripts",
+      "abstractFull": false,
+      "start": "2024-10-21T08:00:00",
+      "end": "2024-10-21T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Atlantic III",
+      "speakerSlugs": [
+        "scott_corio.27sdm7bd",
+        "nathan_ziehnert.27sdlp62"
+      ],
+      "sourceTrack": "Other",
+      "category": "Other",
+      "materials": [
+        {
+          "label": "Performance Optimization in PowerShell",
+          "url": "https://hosted-files.sched.co/mms2024fll/b2/Performance%20Optimization%20in%20PowerShell.pptx",
+          "ext": "pptx"
+        },
+        {
+          "label": "Demos",
+          "url": "https://hosted-files.sched.co/mms2024fll/38/Demos.7z",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "id": "1egXN",
+      "editionId": "mms-2024-flamingo",
+      "title": "Streamlining Azure Management with PowerShell",
+      "url": "https://mms2024fll.sched.com/event/1egXN",
+      "abstract": "Description:Learn how to leverage PowerShell to manage and automate Azure cloud services. Gain insights on how to automate deployments, manage resources, and optimize cloud operations to enhance efficiency across Azure environments. We'll provide practical how-to guides, best practices, and strategic approaches for using PowerShell effectively.What you will learn:Strategies for Azure Management",
+      "abstractFull": false,
+      "start": "2024-10-21T10:00:00",
+      "end": "2024-10-21T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Rio Vista",
+      "speakerSlugs": [
+        "greg_ramsey",
+        "donnie_taylor.27sdm6lt"
+      ],
+      "sourceTrack": "Azure",
+      "category": "Azure & Cloud",
+      "materials": [
+        {
+          "label": "AzureMgmtwithPWSH Attendee Preview",
+          "url": "https://hosted-files.sched.co/mms2024fll/e4/AzureMgmtwithPWSH%20-%20Attendee%20Preview.pptx",
+          "ext": "pptx"
+        },
+        {
+          "label": "AzureMgmtwithPWSH",
+          "url": "https://hosted-files.sched.co/mms2024fll/1f/AzureMgmtwithPWSH.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1eiJP",
+      "editionId": "mms-2024-flamingo",
+      "title": "ConfigMgr Fundamentals for Intermediate Admins - Part 2",
+      "url": "https://mms2024fll.sched.com/event/1eiJP",
+      "abstract": "Description:Level up your ConfigMgr skills. We'll cover Collection Management, Software Deployment, Patching, and Compliance. This session will prepare you to take advantage of other ConfigMgr sessions throughout the week.What you will learn:Advanced Collection ManagementStreamlined Software DeploymentEfficient PatchingEffective Compliance",
+      "abstractFull": false,
+      "start": "2024-10-21T10:00:00",
+      "end": "2024-10-21T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "kent_agerlund.1xngh2qj",
+        "chris.sires"
+      ],
+      "sourceTrack": "ConfigMgr",
+      "category": "Configuration Manager",
+      "materials": [
+        {
+          "label": "ConfigMgr Fundamentals for Intermediate admins part 2",
+          "url": "https://hosted-files.sched.co/mms2024fll/f6/ConfigMgr%20Fundamentals%20for%20Intermediate%20admins%20part%202.pptx",
+          "ext": "pptx"
+        },
+        {
+          "label": "MMS 2024 FLL CMP2",
+          "url": "https://hosted-files.sched.co/mms2024fll/12/MMS%202024%20FLL%20CMP2.zip",
+          "ext": "zip"
+        }
+      ]
+    },
+    {
+      "id": "1egVI",
+      "editionId": "mms-2024-flamingo",
+      "title": "10 Expert Tips for Windows Autopilot Success with Intune",
+      "url": "https://mms2024fll.sched.com/event/1egVI",
+      "abstract": "Description:Unlock the secrets to a smooth Windows Autopilot deployment with Intune by exploring 10 essential tips derived from real-world experiences. Discover common pitfalls to avoid and practical strategies to ensure users have a seamless first logon experience. Dive into troubleshooting techniques to keep your Autopilot setup running smoothly in production environments.What you will learn:10",
+      "abstractFull": false,
+      "start": "2024-10-21T10:00:00",
+      "end": "2024-10-21T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "maurice.daly",
+        "sandy_zeng.27sn4def"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "10 Expert Tips for Windows Autopilot Success with Intune",
+          "url": "https://hosted-files.sched.co/mms2024fll/f0/10%20Expert%20Tips%20for%20Windows%20Autopilot%20Success%20with%20Intune.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1eikV",
+      "editionId": "mms-2024-flamingo",
+      "title": "Efficiently Patching Vulnerabilities with Defender for Endpoint and Microsoft Intune",
+      "url": "https://mms2024fll.sched.com/event/1eikV",
+      "abstract": "Description:Learn how to patch vulnerable software and configurations using Defender for Endpoint and Microsoft Intune. Discover integration and automation capabilities to reach optimal speed of vulnerability management. Gain insights into the Microsoft 365 security stack for an efficient workflow.What you will learn:Integrating Defender for Endpoint and Microsoft Intune for threat and",
+      "abstractFull": false,
+      "start": "2024-10-21T10:00:00",
+      "end": "2024-10-21T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "jordan_benzing.28k3fr8m",
+        "simon.binder2"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "Efficiently Patching Vulnerabilities with D4E MSIntune public v1",
+          "url": "https://hosted-files.sched.co/mms2024fll/91/Efficiently-Patching-Vulnerabilities-with_D4E_MSIntune_public_v1.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1fdhr",
+      "editionId": "mms-2024-flamingo",
+      "title": "Git for the Sysadmin - Advanced Journey",
+      "url": "https://mms2024fll.sched.com/event/1fdhr",
+      "abstract": "Description:Are you already familiar with Git basics and want to take your skills to the next level? We'll explore advanced strategies for managing scripts and projects, including managing branches and complex merge conflicts. You'll also learn how to interact with GitHub or Azure DevOps programmatically, necessary for advanced automations and pipelines. Join us to become a Git wizard and leave",
+      "abstractFull": false,
+      "start": "2024-10-21T10:00:00",
+      "end": "2024-10-21T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Atlantic III",
+      "speakerSlugs": [
+        "matt_zaske.27sn4e6k",
+        "andreas_sobczyk.1xqa96ke"
+      ],
+      "sourceTrack": "Other",
+      "category": "Other",
+      "materials": [
+        {
+          "label": "Git for the Sysadmin",
+          "url": "https://hosted-files.sched.co/mms2024fll/98/Git-for-the-Sysadmin.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egXd",
+      "editionId": "mms-2024-flamingo",
+      "title": "The Future of Windows OS Deployment",
+      "url": "https://mms2024fll.sched.com/event/1egXd",
+      "abstract": "Description:While Autopilot has become popular, there are still scenarios where image-based deployment is necessary. We'll explore the tools that are available for the process, including new approaches and tools. Join us to understand the key scenarios for image-based deployment and what's going away.What you will learn:Understand the limitations of AutopilotLearn about new tools and approaches",
+      "abstractFull": false,
+      "start": "2024-10-21T10:00:00",
+      "end": "2024-10-21T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "mikael_nystrom.27sn47jl",
+        "michael_niehaus.29cuco8l"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": [
+        {
+          "label": "The Future of Windows OS Deployment",
+          "url": "https://hosted-files.sched.co/mms2024fll/4f/The%20Future%20of%20Windows%20OS%20Deployment.pptx",
+          "ext": "pptx"
+        },
+        {
+          "label": "PSD Demo",
+          "url": "https://hosted-files.sched.co/mms2024fll/61/PSD%20Demo.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1oovH",
+      "editionId": "mms-2024-flamingo",
+      "title": "Lunch",
+      "url": "https://mms2024fll.sched.com/event/1oovH",
+      "abstract": "Lunch is outside on the Sky Terrace & Atlantic Portica. If you're in a Los Olas room before lunch, head upstairs. If in an Atlantic room downstairs, head straight outside. Having two places makes getting to lunch faster and keeps lines shorter.",
+      "abstractFull": false,
+      "start": "2024-10-21T11:30:00",
+      "end": "2024-10-21T13:15:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": null,
+      "speakerSlugs": [],
+      "sourceTrack": "Other",
+      "category": "Other",
+      "materials": []
+    },
+    {
+      "id": "1ekUA",
+      "editionId": "mms-2024-flamingo",
+      "title": "Utilizing Azure Monitoring in Real-World Scenarios",
+      "url": "https://mms2024fll.sched.com/event/1ekUA",
+      "abstract": "Description:Learn how Azure Monitor can help you gain visibility and insights into the performance, availability, and health of your cloud resources and applications. We'll explore real-world examples of how Azure Monitor can help you troubleshoot issues, optimize performance, and gain insight into your environment. Learn how to use Azure Monitor for different scenarios such as Entra ID, server",
+      "abstractFull": false,
+      "start": "2024-10-21T13:00:00",
+      "end": "2024-10-21T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Rio Vista",
+      "speakerSlugs": [
+        "donnie_taylor.27sdm6lt",
+        "andreas_sobczyk.1xqa96ke"
+      ],
+      "sourceTrack": "Azure",
+      "category": "Azure & Cloud",
+      "materials": [
+        {
+          "label": "Azure Monitor in the Real World",
+          "url": "https://hosted-files.sched.co/mms2024fll/13/Azure%20Monitor%20in%20the%20Real%20World.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1k2BF",
+      "editionId": "mms-2024-flamingo",
+      "title": "The Essentials of OSD",
+      "url": "https://mms2024fll.sched.com/event/1k2BF",
+      "abstract": "Description:Are you new to OSD? In this session, we will cover everything you need to know about OSD basics to get you started. Join us to learn about OSD concepts, best practices, and tips to ensure a successful deployment.What you will learn:Understanding OSD conceptsBest practices for OSD deploymentTips for a successful OSD deploymentCommon pitfalls to avoid",
+      "abstractFull": false,
+      "start": "2024-10-21T13:00:00",
+      "end": "2024-10-21T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "johan.arwidmark"
+      ],
+      "sourceTrack": "ConfigMgr",
+      "category": "Configuration Manager",
+      "materials": [
+        {
+          "label": "Arwidmark The Essentials of OSD",
+          "url": "https://hosted-files.sched.co/mms2024fll/7d/Arwidmark_The_Essentials_of_OSD.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1i4VF",
+      "editionId": "mms-2024-flamingo",
+      "title": "Intune Internals: Extreme Deep Dive",
+      "url": "https://mms2024fll.sched.com/event/1i4VF",
+      "abstract": "Description:In this session, we will dive deep into Intune internals, including device check-ins, group membership and assignments, reporting, and more. You will discover the high-level architecture of Intune, get detailed knowledge on specific components, and learn about the Microsoft change process. Join us to gain valuable insights to secure your devices.What you will learn:Discover high-level",
+      "abstractFull": false,
+      "start": "2024-10-21T13:00:00",
+      "end": "2024-10-21T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "mattcall1",
+        "krystina_kyle.27snzsad"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "IntuneInternals v1",
+          "url": "https://hosted-files.sched.co/mms2024fll/bd/IntuneInternals_v1.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1gUXB",
+      "editionId": "mms-2024-flamingo",
+      "title": "Managing Windows 10/11 Multi-Session with Intune",
+      "url": "https://mms2024fll.sched.com/event/1gUXB",
+      "abstract": "Description:Discover the best practices for managing Windows 10/11 Multi-Session with Intune. We'll cover how to enroll Windows 11 multi-session AVD hosts into Intune, deploying configuration, updates, apps, and security policy to Win 10/11 multi-session AVD hosts, differences between managing 'single' and 'multi-session' OS's, and what cannot be managed in multi-session OS's with Intune.What you",
+      "abstractFull": false,
+      "start": "2024-10-21T13:00:00",
+      "end": "2024-10-21T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "ericor",
+        "chris_cavazos.27to6pmu"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "MMSFLMGW1011Multi",
+          "url": "https://hosted-files.sched.co/mms2024fll/74/MMSFLMGW1011Multi.pdf",
+          "ext": "pdf"
+        },
+        {
+          "label": "MMSFLMGW1011MultiV2",
+          "url": "https://hosted-files.sched.co/mms2024fll/ca/MMSFLMGW1011MultiV2.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1fWJx",
+      "editionId": "mms-2024-flamingo",
+      "title": "Getting Started with PowerShell",
+      "url": "https://mms2024fll.sched.com/event/1fWJx",
+      "abstract": "Description:Are you new to PowerShell and looking to automate your workload? We'll cover an introduction to PowerShell and teach you how to best leverage Copilot to continue your PowerShell journey. You will learn command and cmdlet syntax, setting up an IDE, and setting up Copilot in VS Code. Join us to jumpstart your automation journey!What you will learn:Command and cmdlet syntaxSetting up an",
+      "abstractFull": false,
+      "start": "2024-10-21T13:00:00",
+      "end": "2024-10-21T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "jordan_benzing.28k3fr8m",
+        "simon.binder2"
+      ],
+      "sourceTrack": "Other",
+      "category": "Other",
+      "materials": [
+        {
+          "label": "Getting Started Powershell",
+          "url": "https://hosted-files.sched.co/mms2024fll/6b/Getting-Started-Powershell.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egWx",
+      "editionId": "mms-2024-flamingo",
+      "title": "Hidden Secrets of PowerShell Masters",
+      "url": "https://mms2024fll.sched.com/event/1egWx",
+      "abstract": "Description:Take your PowerShell skills to the next level with us. Learn advanced troubleshooting of PowerShell scripts, discover hidden .NET methods, take a class on classes, and replace the while loop with event-driven scripting. Uncover the hidden secrets of the PowerShell Masters.What you will learn:Advanced Troubleshooting of PowerShell ScriptsUsing Hidden .NET MethodsTaking a Class on",
+      "abstractFull": false,
+      "start": "2024-10-21T13:00:00",
+      "end": "2024-10-21T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Atlantic III",
+      "speakerSlugs": [
+        "nathan_ziehnert.27sdlp62",
+        "keithg4"
+      ],
+      "sourceTrack": "Other",
+      "category": "Other",
+      "materials": [
+        {
+          "label": "Demos",
+          "url": "https://hosted-files.sched.co/mms2024fll/82/Demos.zip",
+          "ext": "zip"
+        },
+        {
+          "label": "Hidden Secrets of the PowerShell Masters",
+          "url": "https://hosted-files.sched.co/mms2024fll/15/Hidden%20Secrets%20of%20the%20PowerShell%20Masters.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1k2BI",
+      "editionId": "mms-2024-flamingo",
+      "title": "OSD Tips and Tricks: Making Deployment Easier and More Powerful",
+      "url": "https://mms2024fll.sched.com/event/1k2BI",
+      "abstract": "Description:Are you looking for tips and tricks to make OSD easier and more powerful? Join us in this session as we divulge all the tips and tricks we have learned over the years. We will focus on Configuration Manager (CM), but will also delve into Autopilot. This session will be both fun and informative!What you will learn:New OSD Tips and TricksPowerful OSD strategiesExpert guidance on CM and",
+      "abstractFull": false,
+      "start": "2024-10-21T15:00:00",
+      "end": "2024-10-21T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "mike_terrill.27sn475c",
+        "keithg4"
+      ],
+      "sourceTrack": "ConfigMgr",
+      "category": "Configuration Manager",
+      "materials": [
+        {
+          "label": "OSD Tips and Tricks",
+          "url": "https://hosted-files.sched.co/mms2024fll/30/OSD%20Tips%20and%20Tricks.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1egX0",
+      "editionId": "mms-2024-flamingo",
+      "title": "Community Tools",
+      "url": "https://mms2024fll.sched.com/event/1egX0",
+      "abstract": "Description:Explore the latest and greatest tools available in the Intune and Configuration Manager community in this demo-driven session. From task automation to troubleshooting, these tools will revolutionize your Sysadmin experience and save you time and effort. Learn practical insights on scenarios these community tools can solve and new ways to troubleshoot. Don't miss out on uncovering",
+      "abstractFull": false,
+      "start": "2024-10-21T15:00:00",
+      "end": "2024-10-21T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "jrgen_nilsson.27sn41it",
+        "jannik_reinhard.27tenj5s"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "Community Tools",
+          "url": "https://hosted-files.sched.co/mms2024fll/4a/Community%20Tools.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1fdhS",
+      "editionId": "mms-2024-flamingo",
+      "title": "Intune Tips and Tricks - 2024 Fall Edition (Option 2)",
+      "url": "https://mms2024fll.sched.com/event/1fdhS",
+      "abstract": "Description:Learn the latest tips and tricks for Intune administrators. We'll provide you with simple tips to work smarter, not harder, and explore hidden features using PowerShell. Discover how to automate tasks and processes, improve your workflow and tasks using PowerApps, and much more. We'll help you take your Intune administration to the next level.What you will learn:Learn about hidden",
+      "abstractFull": false,
+      "start": "2024-10-21T15:00:00",
+      "end": "2024-10-21T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "tim_de_keukelaere.1sw4e0pu",
+        "peter_daalmans.28j9d0cg"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "MMSFLL2024 IntuneTipsAndTricks v1.0F Full",
+          "url": "https://hosted-files.sched.co/mms2024fll/f7/MMSFLL2024-IntuneTipsAndTricks%20-%20v1.0F%20-%20Full.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1egXc",
+      "editionId": "mms-2024-flamingo",
+      "title": "The Transformative Role of AI in IT Operations",
+      "url": "https://mms2024fll.sched.com/event/1egXc",
+      "abstract": "Description:Discover how AI can automate routine tasks, predict system failures, and enhance overall efficiency in IT operations. We'll explore practical AI applications, from anomaly detection to incident response, and discuss strategies for integrating AI tools into IT infrastructure to drive operational excellence.What you will learn:Build your own AI Bots to automate IT tasksUse AI to improve",
+      "abstractFull": false,
+      "start": "2024-10-21T15:00:00",
+      "end": "2024-10-21T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Atlantic III",
+      "speakerSlugs": [
+        "greg_ramsey",
+        "donnie_taylor.27sdm6lt"
+      ],
+      "sourceTrack": "Other",
+      "category": "Other",
+      "materials": [
+        {
+          "label": "Transformative AI in IT Ops",
+          "url": "https://hosted-files.sched.co/mms2024fll/69/Transformative%20AI%20in%20IT%20Ops.pdf",
+          "ext": "pdf"
+        },
+        {
+          "label": "AI Notes Ramsey",
+          "url": "https://hosted-files.sched.co/mms2024fll/7b/AI%20Notes_Ramsey.txt",
+          "ext": "txt"
+        }
+      ]
+    },
+    {
+      "id": "1fWKR",
+      "editionId": "mms-2024-flamingo",
+      "title": "The Journey to a Secure Identity Management in Entra ID",
+      "url": "https://mms2024fll.sched.com/event/1fWKR",
+      "abstract": "Description:Is MFA enough to protect your organization in 2024? In this session, we will explore the latest trends in password strategies, authentication methods, identity protection, privileged identity management, conditional access, and the journey to a password-less world. Join us to learn about different authentication methods in Entra ID, how to protect and govern privileged access, and how",
+      "abstractFull": false,
+      "start": "2024-10-21T15:00:00",
+      "end": "2024-10-21T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "jan_ketil_skanke.27sn43j2",
+        "maurice.daly"
+      ],
+      "sourceTrack": "Security",
+      "category": "Security",
+      "materials": [
+        {
+          "label": "The Journey to a Secure Identity Management in Entra ID",
+          "url": "https://hosted-files.sched.co/mms2024fll/57/The%20Journey%20to%20a%20Secure%20Identity%20Management%20in%20Entra%20ID.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1nObx",
+      "editionId": "mms-2024-flamingo",
+      "title": "Mastering Windows 11 Deployment (Option 1)",
+      "url": "https://mms2024fll.sched.com/event/1nObx",
+      "abstract": "Description:Learn everything you need to know to effectively deploy Windows 11, including recommended deployment strategies and guidance on identifying and resolving potential issues. Gain insights from cloud services experts on available telemetry and insights, as well as tactics for troubleshooting challenging scenarios. Leave this session equipped with the tools and knowledge to achieve full",
+      "abstractFull": false,
+      "start": "2024-10-21T15:00:00",
+      "end": "2024-10-21T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Rio Vista",
+      "speakerSlugs": [
+        "vinnie_flynt.26zyvfws",
+        "adam_nichols.29bhu3ne"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": [
+        {
+          "label": "Mastering Windows 11 Deployments",
+          "url": "https://hosted-files.sched.co/mms2024fll/6a/Mastering%20Windows%2011%20Deployments.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1nJ14",
+      "editionId": "mms-2024-flamingo",
+      "title": "Own It: Building Your Career with Intention",
+      "url": "https://mms2024fll.sched.com/event/1nJ14",
+      "abstract": "Description:Unlock the secrets to a fulfilling and successful career by taking intentional steps towards your professional goals. We’ll share inspiring success stories and delve into the strategies that helped us achieve our career milestones. Learn how to harness your strengths, build a personal brand, network effectively, set clear career goals, and develop essential soft skills. Whether",
+      "abstractFull": false,
+      "start": "2024-10-21T17:00:00",
+      "end": "2024-10-21T18:15:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "scott_corio.27sdm7bd",
+        "chad_lich.27sn47yv"
+      ],
+      "sourceTrack": "Happy Hour",
+      "category": "Social & Networking",
+      "materials": []
+    },
+    {
+      "id": "1ouG1",
+      "editionId": "mms-2024-flamingo",
+      "title": "PSADT v4: A Modern Take on Enterprise Software Deployment",
+      "url": "https://mms2024fll.sched.com/event/1ouG1",
+      "abstract": "Finally, introducing PSADT v4! We made it better. Way better! It's an almost complete rewrite of the PowerShell application deployment framework, rebuilt as a module with cutting-edge PowerShell features, and now supporting both Windows PowerShell 5.1 and PowerShell 7.4, AND ARM!!We'll take you through the new features and improvements, walk you through how backwards compatibility for v3",
+      "abstractFull": false,
+      "start": "2024-10-21T17:00:00",
+      "end": "2024-10-21T18:30:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [],
+      "sourceTrack": "Happy Hour",
+      "category": "Social & Networking",
+      "materials": [
+        {
+          "label": "PSADT 21st Oct 2024 MMS at FLL 2024 PSAppDeployToolkit v4 MMS Insiders Preview Sched",
+          "url": "https://hosted-files.sched.co/mms2024fll/a6/PSADT%2021st%20Oct%202024%20-%20MMS%20at%20FLL%202024%20-%20PSAppDeployToolkit%20v4%20-%20MMS%20Insiders%20Preview%20-%20Sched.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1iZnv",
+      "editionId": "mms-2024-flamingo",
+      "title": "3D Printing for Beginners",
+      "url": "https://mms2024fll.sched.com/event/1iZnv",
+      "abstract": "Description:Are you interested in 3D-printing technology but not sure where to start? This session will teach you the foundations of 3D-Printing, covering different types of 3D printers, how they work, and what to watch out for. You'll learn how to print a benchy and get an intro to making your own digital models. Join us to wrap your mind around the technology of 3D printing, understand the pros",
+      "abstractFull": false,
+      "start": "2024-10-21T17:00:00",
+      "end": "2024-10-21T18:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "matt_zaske.27sn4e6k",
+        "tom_degreef.1xqbm359"
+      ],
+      "sourceTrack": "Happy Hour",
+      "category": "Social & Networking",
+      "materials": []
+    },
+    {
+      "id": "1i4VO",
+      "editionId": "mms-2024-flamingo",
+      "title": "Optimizing Your Lab: Resources, Software, and Equipment for 2024",
+      "url": "https://mms2024fll.sched.com/event/1i4VO",
+      "abstract": "Description:Discover how to set up your lab environment at work and home to test and learn the latest technologies. In this session, you will learn about great on-prem and cloud lab resources, how to get free software for testing, and lab box recommendations for 2024.What you will learn:Great on-prem and cloud lab resourcesHow to access free software for testingLab box recommendations for 2024Tips",
+      "abstractFull": false,
+      "start": "2024-10-21T17:00:00",
+      "end": "2024-10-21T18:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "mike_terrill.27sn475c",
+        "keithg4"
+      ],
+      "sourceTrack": "Happy Hour",
+      "category": "Social & Networking",
+      "materials": [
+        {
+          "label": "MMSFLA2024 Home Lab 24H2 Edition",
+          "url": "https://hosted-files.sched.co/mms2024fll/ce/MMSFLA2024%20-%20Home%20Lab%2024H2%20Edition.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1nIRt",
+      "editionId": "mms-2024-flamingo",
+      "title": "MMS Flamingo Party",
+      "url": "https://mms2024fll.sched.com/event/1nIRt",
+      "abstract": "Note: simply slotting this session doesn't get you in. Please register with link below and wear your badge.Let’s kick off MMS Flamingo with an epic celebration by the beach! Join the Patch My PC team at Bo’s Beach for great food, drinks, and good vibes. Whether you’re a longtime attendee or this is your first event, this is your opportunity to get to know the MMS community",
+      "abstractFull": false,
+      "start": "2024-10-21T19:00:00",
+      "end": "2024-10-21T22:00:00",
+      "timezone": "EDT",
+      "dateLabel": "Monday October 21, 2024",
+      "venue": null,
+      "speakerSlugs": [],
+      "sourceTrack": "Happy Hour",
+      "category": "Social & Networking",
+      "materials": []
+    },
+    {
+      "id": "1fKem",
+      "editionId": "mms-2024-flamingo",
+      "title": "10 Prompts to Success with Azure Copilot",
+      "url": "https://mms2024fll.sched.com/event/1fKem",
+      "abstract": "Description:Maverick had Goose, Iceman had Slider, and you get R2D2 ... Azure Copilot! Microsoft has many copilots, but if you work in an Aure portal, this one will help you generate deep insights instantly, and do complex tasks faster.We will kick-off with how to create effective prompts (prompt basics), which will help you with any AI. Followed by an overview of what Azure Copilot is and how it",
+      "abstractFull": false,
+      "start": "2024-10-22T08:00:00",
+      "end": "2024-10-22T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Rio Vista",
+      "speakerSlugs": [
+        "david_brook.27tenjix",
+        "chad_lich.27sn47yv"
+      ],
+      "sourceTrack": "Azure",
+      "category": "Azure & Cloud",
+      "materials": [
+        {
+          "label": "10 Prompts to Success",
+          "url": "https://hosted-files.sched.co/mms2024fll/ac/10%20Prompts%20to%20Success.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1ekU2",
+      "editionId": "mms-2024-flamingo",
+      "title": "Build and Maintain Your Ultimate Task Sequence",
+      "url": "https://mms2024fll.sched.com/event/1ekU2",
+      "abstract": "Description:Task Sequences are an excellent way to provision devices. In this session, we will help you improve your Task Sequences by making them easy to maintain, modular, reusable, and stretch to reach all those weird edge cases. Learn how to leverage modularization to make creation and maintenance easier, and several tips and tricks to help your techs succeed.What you will learn:Identify and",
+      "abstractFull": false,
+      "start": "2024-10-22T08:00:00",
+      "end": "2024-10-22T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "matt_zaske.27sn4e6k",
+        "jim_oneil.28jia8vk"
+      ],
+      "sourceTrack": "ConfigMgr",
+      "category": "Configuration Manager",
+      "materials": [
+        {
+          "label": "Ultimate Task Sequence",
+          "url": "https://hosted-files.sched.co/mms2024fll/05/Ultimate-Task-Sequence.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egWB",
+      "editionId": "mms-2024-flamingo",
+      "title": "Cleared for Takeoff: Tips for a Seamless Transition to Entra Joined Devices",
+      "url": "https://mms2024fll.sched.com/event/1egWB",
+      "abstract": "Description:Uncover the top challenges, supplemented by real-life scenarios to help you navigate pitfalls and optimize time in your journey to embrace Entra joined and Intune managed devices. Depart with the knowledge to achieve success in your deployment.What you will learn:Identifying and addressing top challengesReal-world scenarios for practical guidanceSkills necessary for a successful",
+      "abstractFull": false,
+      "start": "2024-10-22T08:00:00",
+      "end": "2024-10-22T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "jan_ketil_skanke.27sn43j2",
+        "jrgen_nilsson.27sn41it"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "Cleared for Takeoff Tips for a Seamless Transition to Entra Joined Devices",
+          "url": "https://hosted-files.sched.co/mms2024fll/63/Cleared%20for%20Takeoff%20Tips%20for%20a%20Seamless%20Transition%20to%20Entra%20Joined%20Devices.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1fYhz",
+      "editionId": "mms-2024-flamingo",
+      "title": "Protecting Data and Apps on Mobile Devices with Microsoft Intune and Entra ID",
+      "url": "https://mms2024fll.sched.com/event/1fYhz",
+      "abstract": "Description:Mobile devices are often exposed to cyberattacks when accessing sensitive data and applications. You'll learn how to protect your data and apps with Microsoft Intune and Entra ID. Discover the data protection framework and how to configure App Protection policies for your devices.What you will learn:Understand Microsoft Intune's data protection framework and App Protection",
+      "abstractFull": false,
+      "start": "2024-10-22T08:00:00",
+      "end": "2024-10-22T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "samarti",
+        "simon.binder2"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "Protecting Data and Apps MMS Flamingo V3",
+          "url": "https://hosted-files.sched.co/mms2024fll/91/Protecting%20Data%20and%20Apps%20MMS%20Flamingo%20V3.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1mppW",
+      "editionId": "mms-2024-flamingo",
+      "title": "Unlock the Full Potential of Intune with ZIntune (Intune Companion)",
+      "url": "https://mms2024fll.sched.com/event/1mppW",
+      "abstract": "Join us to discover the power of ZeroTouch.ai, a groundbreaking real-time AI and automation-powered Unified Endpoint Management and Security platform, along with ZIntune—our enhancement and companion solution for Microsoft Intune. Explore hundreds of features designed to elevate your existing Intune, SCCM, MDT, or any other MDM or RMM solution. ZIntune addresses critical gaps in Intune by",
+      "abstractFull": false,
+      "start": "2024-10-22T08:00:00",
+      "end": "2024-10-22T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "aria30",
+        "steve_weiner.27sn40ya"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": []
+    },
+    {
+      "id": "1gUWV",
+      "editionId": "mms-2024-flamingo",
+      "title": "Cloud Desktops - Azure Virtual Desktop and Windows 365 Features and Benefits",
+      "url": "https://mms2024fll.sched.com/event/1gUWV",
+      "abstract": "Description:Discover the best cloud desktop solution for your organization! In this session, we'll explore Azure Virtual Desktop (AVD) and Windows 365 (W365), covering their features, benefits, differences, and real-world use cases. Learn how to configure and manage each solution and decide which is right for you.What you will learn: Features and benefits of AVD and W365 Differences between AVD",
+      "abstractFull": false,
+      "start": "2024-10-22T08:00:00",
+      "end": "2024-10-22T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Atlantic III",
+      "speakerSlugs": [
+        "ericor",
+        "chris_cavazos.27to6pmu"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": [
+        {
+          "label": "MMSFLAVDW365",
+          "url": "https://hosted-files.sched.co/mms2024fll/f0/MMSFLAVDW365.pdf",
+          "ext": "pdf"
+        },
+        {
+          "label": "MMSFLAVDvW365v4",
+          "url": "https://hosted-files.sched.co/mms2024fll/58/MMSFLAVDvW365v4.pptx",
+          "ext": "pptx"
+        },
+        {
+          "label": "MMSAVDW365 Demo",
+          "url": "https://hosted-files.sched.co/mms2024fll/6c/MMSAVDW365%20Demo.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1iefe",
+      "editionId": "mms-2024-flamingo",
+      "title": "Going Cloud Native - Redesigning IaaS Solutions for PaaS and SaaS",
+      "url": "https://mms2024fll.sched.com/event/1iefe",
+      "abstract": "Description:When an application team asks for 10 servers to host their app in Azure, what do you do? In this session, we'll explore how to deploy traditional scenarios using native PaaS and SaaS offerings in Azure, simplifying complexity, reducing costs, and increasing reliability. We'll cover file servers, databases, automation/script servers, microservices with containerization, and other SaaS",
+      "abstractFull": false,
+      "start": "2024-10-22T10:00:00",
+      "end": "2024-10-22T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Rio Vista",
+      "speakerSlugs": [
+        "donnie_taylor.27sdm6lt",
+        "scott_corio.27sdm7bd"
+      ],
+      "sourceTrack": "Azure",
+      "category": "Azure & Cloud",
+      "materials": [
+        {
+          "label": "Going Cloud Native",
+          "url": "https://hosted-files.sched.co/mms2024fll/27/Going%20Cloud%20Native.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egWJ",
+      "editionId": "mms-2024-flamingo",
+      "title": "Defending the Castle: 5 Years Later",
+      "url": "https://mms2024fll.sched.com/event/1egWJ",
+      "abstract": "Description:Learn how to secure your ConfigMgr environment and defend against publicly known attack surfaces. We'll discuss ConfigMgr features to combat these attacks and how to test them with proper approval. Walk away with concrete tips to secure your environment.What you will learn:Concrete tips for securing ConfigMgr environmentUnderstanding of publicly released attack pathsConfigMgr features",
+      "abstractFull": false,
+      "start": "2024-10-22T10:00:00",
+      "end": "2024-10-22T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "kim_oppalfens.27sn3ymy",
+        "tom_degreef.1xqbm359",
+        "chris_thompson.27sn42aa"
+      ],
+      "sourceTrack": "ConfigMgr",
+      "category": "Configuration Manager",
+      "materials": [
+        {
+          "label": "Defending the castle 5 years later",
+          "url": "https://hosted-files.sched.co/mms2024fll/5e/Defending%20the%20castle%20-%205%20%20years%20later.pptx",
+          "ext": "pptx"
+        },
+        {
+          "label": "MISCONFIGURATION MANAGER",
+          "url": "https://hosted-files.sched.co/mms2024fll/27/MISCONFIGURATION_MANAGER.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "NTLM RELAY FW INBOUND",
+          "url": "https://hosted-files.sched.co/mms2024fll/91/NTLM_RELAY_FW_INBOUND.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "NTLM RELAY PROTECTED USERS",
+          "url": "https://hosted-files.sched.co/mms2024fll/84/NTLM_RELAY_PROTECTED_USERS.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "NTLM Relay Working",
+          "url": "https://hosted-files.sched.co/mms2024fll/e8/NTLM_Relay_Working.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "SID HIJACK",
+          "url": "https://hosted-files.sched.co/mms2024fll/3c/SID_HIJACK.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "TAKEOVER 1",
+          "url": "https://hosted-files.sched.co/mms2024fll/4d/TAKEOVER-1.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "TAKEOVER 2",
+          "url": "https://hosted-files.sched.co/mms2024fll/24/TAKEOVER-2.mp4",
+          "ext": "mp4"
+        }
+      ]
+    },
+    {
+      "id": "1fWKJ",
+      "editionId": "mms-2024-flamingo",
+      "title": "Application Packaging Like a King",
+      "url": "https://mms2024fll.sched.com/event/1fWKJ",
+      "abstract": "Description:Learn how to streamline your application packaging process through automation and leveraging Large Language Models (LLMs). We'll show you how to implement Logic Apps and other innovative methods. Don't miss this opportunity to become an application packaging king!What you will learn:Automating Application PackagingLeveraging Large Language ModelsImplementing Logic AppsBest practices",
+      "abstractFull": false,
+      "start": "2024-10-22T10:00:00",
+      "end": "2024-10-22T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "david_brook.27tenjix",
+        "jannik_reinhard.27tenj5s"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "App Packing Like a King",
+          "url": "https://hosted-files.sched.co/mms2024fll/64/App%20Packing%20Like%20a%20King.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1fdhP",
+      "editionId": "mms-2024-flamingo",
+      "title": "Managing Modern IT Apps with Microsoft Intune",
+      "url": "https://mms2024fll.sched.com/event/1fdhP",
+      "abstract": "Description:Learn about modern ways to manage Windows devices and apps. We'll cover various app management options such as MSI, Microsoft App Store, MSIX, and Intune's complex app model. We'll also discuss Enterprise App Management and community tools.What you will learn:Discover valid and future-ready options for app managementStay updated with the latest news on app deploymentDeploy apps",
+      "abstractFull": false,
+      "start": "2024-10-22T10:00:00",
+      "end": "2024-10-22T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Atlantic III",
+      "speakerSlugs": [
+        "tim_de_keukelaere.1sw4e0pu",
+        "peter_daalmans.28j9d0cg"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "MMSFLL2024 ManagingApps v1.0F",
+          "url": "https://hosted-files.sched.co/mms2024fll/96/MMSFLL2024-ManagingApps%20-%20v1.0F.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1egWo",
+      "editionId": "mms-2024-flamingo",
+      "title": "Diving Deep into Windows Autopilot Device Provisioning",
+      "url": "https://mms2024fll.sched.com/event/1egWo",
+      "abstract": "Description:We'll dive deep into Windows Autopilot and explore how it works, how to troubleshoot when something goes wrong, how to customize and extend it, and optimize the process. Whether you're new to Autopilot or have been working with it for some time, you'll leave with a better understanding of how it works and how to enhance the device provisioning process.What you will learn:Understand how",
+      "abstractFull": false,
+      "start": "2024-10-22T10:00:00",
+      "end": "2024-10-22T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "andrew_johnson.27sn45ur",
+        "michael_niehaus.29cuco8l"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": [
+        {
+          "label": "Diving Deep into Windows Autopilot Device Provisioning",
+          "url": "https://hosted-files.sched.co/mms2024fll/a5/Diving%20Deep%20into%20Windows%20Autopilot%20Device%20Provisioning.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1fWpw",
+      "editionId": "mms-2024-flamingo",
+      "title": "Exploring the Future of Copilot PCs",
+      "url": "https://mms2024fll.sched.com/event/1fWpw",
+      "abstract": "Description:Join us to learn about the next generation of PCs - Copilot PCs. In this session, we will take a closer look at Copilot PCs, including their exclusive features and the benefits of using a Neural Processing Unit (NPU). We will also provide a sneak peek into upcoming features. Don't miss this opportunity to learn if Copilot PCs are the right choice for you!What you will",
+      "abstractFull": false,
+      "start": "2024-10-22T10:00:00",
+      "end": "2024-10-22T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "ken_goosens.29bhu3nc",
+        "vinnie_flynt.26zyvfws"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": []
+    },
+    {
+      "id": "1oovK",
+      "editionId": "mms-2024-flamingo",
+      "title": "Lunch",
+      "url": "https://mms2024fll.sched.com/event/1oovK",
+      "abstract": "Lunch is outside on the Sky Terrace & Atlantic Portica. If you're in a Los Olas room before lunch, head upstairs. If in an Atlantic room downstairs, head straight outside. Having two places makes getting to lunch faster and keeps lines shorter.",
+      "abstractFull": false,
+      "start": "2024-10-22T11:30:00",
+      "end": "2024-10-22T13:15:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": null,
+      "speakerSlugs": [],
+      "sourceTrack": "Other",
+      "category": "Other",
+      "materials": []
+    },
+    {
+      "id": "1egXE",
+      "editionId": "mms-2024-flamingo",
+      "title": "Simplifying IT Automation with Azure Functions, Automation, and Logic Apps",
+      "url": "https://mms2024fll.sched.com/event/1egXE",
+      "abstract": "Description:We'll explore how Cloud services can simplify IT automation. We'll dive into Azure Functions, Azure Automation, and Logic Apps, and show you how to pick the right tool for the job. You'll learn how to make these tools work smoothly with Intune and see real examples of how automation can make IT life easier.What you will learn:Understand the strengths of Azure Functions, Automation, and",
+      "abstractFull": false,
+      "start": "2024-10-22T13:00:00",
+      "end": "2024-10-22T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "jan_ketil_skanke.27sn43j2",
+        "sandy_zeng.27sn4def"
+      ],
+      "sourceTrack": "Azure",
+      "category": "Azure & Cloud",
+      "materials": [
+        {
+          "label": "Simplifying IT Automation with Azure",
+          "url": "https://hosted-files.sched.co/mms2024fll/57/Simplifying%20IT%20Automation%20with%20Azure.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1egXT",
+      "editionId": "mms-2024-flamingo",
+      "title": "Azure Update Manager: Should I Patch Servers From the Cloud Now?",
+      "url": "https://mms2024fll.sched.com/event/1egXT",
+      "abstract": "Description:As organizations continue to transition to the cloud, they are increasingly wondering what to do for server patching. We'll dive deep into Microsoft's latest server patching solution: Azure Update Manager (AUM). What is it, what can it do, and how does it do it? We'll then compare AUM to the solutions you are likely already familiar with to help you decide which are right for the",
+      "abstractFull": false,
+      "start": "2024-10-22T13:00:00",
+      "end": "2024-10-22T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "bryan_dam.28jno8u4",
+        "david_brook.27tenjix"
+      ],
+      "sourceTrack": "ConfigMgr",
+      "category": "Configuration Manager",
+      "materials": [
+        {
+          "label": "Azure Update Manager Should I Patch Servers from the Cloud Now",
+          "url": "https://hosted-files.sched.co/mms2024fll/5a/Azure%20Update%20Manager%20-%20Should%20I%20Patch%20Servers%20from%20the%20Cloud%20Now.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egWl",
+      "editionId": "mms-2024-flamingo",
+      "title": "Defense Against the Dark Arts: Stealing ConfigMgr Credentials",
+      "url": "https://mms2024fll.sched.com/event/1egWl",
+      "abstract": "Description:Discover advanced techniques attackers use to extract credentials from ConfigMgr to compromise enterprise environments. We'll demo examples of how attackers escalate privileges and discuss changes you can make to prevent them. Attend this session for practical advice on how to bolster the security of your organization.What you will learn:Understand where credentials are stored and",
+      "abstractFull": false,
+      "start": "2024-10-22T13:00:00",
+      "end": "2024-10-22T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "kim_oppalfens.27sn3ymy",
+        "tom_degreef.1xqbm359",
+        "chris_thompson.27sn42aa"
+      ],
+      "sourceTrack": "ConfigMgr",
+      "category": "Configuration Manager",
+      "materials": [
+        {
+          "label": "Defense Against the Dark Arts Stealing ConfigMgr Credentials",
+          "url": "https://hosted-files.sched.co/mms2024fll/88/Defense%20Against%20the%20Dark%20Arts%20-%20Stealing%20ConfigMgr%20Credentials.pptx",
+          "ext": "pptx"
+        },
+        {
+          "label": "CRED 1",
+          "url": "https://hosted-files.sched.co/mms2024fll/ae/CRED-1.mp4",
+          "ext": "mp4"
+        }
+      ]
+    },
+    {
+      "id": "1fWK1",
+      "editionId": "mms-2024-flamingo",
+      "title": "Making the Most of IT: But What If We Don't Have E5?",
+      "url": "https://mms2024fll.sched.com/event/1fWK1",
+      "abstract": "Description:We'll explore what an organization can do with different levels of per-user and per-tenant licensing, starting with the bare minimum of Enterprise Mobility Security E3 and working our way up. Learn how to automate processes without Power Apps or Power Automate, troubleshoot Intune configurations without Device Analytics, and make the most of your licensing tiers. Gain a better",
+      "abstractFull": false,
+      "start": "2024-10-22T13:00:00",
+      "end": "2024-10-22T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Rio Vista",
+      "speakerSlugs": [
+        "matt_zaske.27sn4e6k",
+        "krystina_kyle.27snzsad"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "Making The Most Of IT MMS Flamingo",
+          "url": "https://hosted-files.sched.co/mms2024fll/c2/Making%20The%20Most%20Of%20IT-%20MMS_Flamingo.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egWz",
+      "editionId": "mms-2024-flamingo",
+      "title": "Enhancing Threat Hunting Efficiency with Copilot for Security",
+      "url": "https://mms2024fll.sched.com/event/1egWz",
+      "abstract": "Description:We'll discuss enhancing threat hunting efficiency with Copilot for Security. Discover innovative strategies to streamline your security operations, leverage Copilot's advanced AI capabilities for faster threat detection, and reduce response times. Learn how to integrate Copilot seamlessly into your security workflow, empowering your team to stay ahead of emerging threats. We'll help",
+      "abstractFull": false,
+      "start": "2024-10-22T13:00:00",
+      "end": "2024-10-22T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "rod_trent.28kie72h",
+        "morten_knudsen.27sn3yb1"
+      ],
+      "sourceTrack": "Security",
+      "category": "Security",
+      "materials": [
+        {
+          "label": "Enhancing Threat Hunting Efficiency with Copilot for Security",
+          "url": "https://hosted-files.sched.co/mms2024fll/4a/Enhancing%20Threat%20Hunting%20Efficiency%20with%20Copilot%20for%20Security.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1fPiK",
+      "editionId": "mms-2024-flamingo",
+      "title": "Mastering Windows 11 Deployment (Option 2)",
+      "url": "https://mms2024fll.sched.com/event/1fPiK",
+      "abstract": "Description:Learn everything you need to know to effectively deploy Windows 11, including recommended deployment strategies and guidance on identifying and resolving potential issues. Gain insights from cloud services experts on available telemetry and insights, as well as tactics for troubleshooting challenging scenarios. Leave this session equipped with the tools and knowledge to achieve full",
+      "abstractFull": false,
+      "start": "2024-10-22T13:00:00",
+      "end": "2024-10-22T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Atlantic III",
+      "speakerSlugs": [
+        "adam_nichols.29bhu3ne",
+        "vinnie_flynt.26zyvfws"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": [
+        {
+          "label": "Mastering Windows 11 Deployments",
+          "url": "https://hosted-files.sched.co/mms2024fll/d3/Mastering%20Windows%2011%20Deployments.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1eiHW",
+      "editionId": "mms-2024-flamingo",
+      "title": "Connecting to Your Data: Hybrid Edition",
+      "url": "https://mms2024fll.sched.com/event/1eiHW",
+      "abstract": "Description:We'll explore numerous ways to access your data. From Intune and Entra Id, to ConfigMgr, AD, and Windows, we'll show you how to extract your data and settings using Graph, SQL, WMI, PowerShell, and more. Learn how to connect the data and the dots between the data for use with custom reports or tools. Discover tricks of the trade and how to take actions based on your various data.What",
+      "abstractFull": false,
+      "start": "2024-10-22T15:00:00",
+      "end": "2024-10-22T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "adam_gross.27so7u0l",
+        "paul_wetter.27sr1aqg"
+      ],
+      "sourceTrack": "ConfigMgr",
+      "category": "Configuration Manager",
+      "materials": [
+        {
+          "label": "ConnectingToYourDataHybrid",
+          "url": "https://hosted-files.sched.co/mms2024fll/09/ConnectingToYourDataHybrid.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1egXI",
+      "editionId": "mms-2024-flamingo",
+      "title": "Peer-to-Peer OSD with BranchCache",
+      "url": "https://mms2024fll.sched.com/event/1egXI",
+      "abstract": "Description:Are you struggling to do OS deployments in all of your corporate and remote network locations? We'll show you how to easily deploy OS using ConfigMgr with BranchCache. Learn how to enable and configure clients to use BranchCache, pre-cache content to clients for OS deployment, create a BranchCache enabled Boot Image, and create an OS Deployment Task Sequence that uses BranchCache.What",
+      "abstractFull": false,
+      "start": "2024-10-22T15:00:00",
+      "end": "2024-10-22T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "mike_terrill.27sn475c",
+        "johan.arwidmark"
+      ],
+      "sourceTrack": "ConfigMgr",
+      "category": "Configuration Manager",
+      "materials": [
+        {
+          "label": "Peer to Peer OSD with BranchCache",
+          "url": "https://hosted-files.sched.co/mms2024fll/dd/Peer-to-Peer%20OSD%20with%20BranchCache.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1ieff",
+      "editionId": "mms-2024-flamingo",
+      "title": "Revolutionize Your IT Strategy: Latest Innovations in Patch Management and Security",
+      "url": "https://mms2024fll.sched.com/event/1ieff",
+      "abstract": "Description:Join us to experience Patch My PC's newly released SaaS solution for Applications and Patching for Intune, get a preview of upcoming Advanced Analytics and Reporting tools for Intune/SCCM, and discover the power of our new Advanced CVE Insights solution. Learn how our third-party patch management solutions can help you enhance IT decisions and boost security.What you will",
+      "abstractFull": false,
+      "start": "2024-10-22T15:00:00",
+      "end": "2024-10-22T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Atlantic III",
+      "speakerSlugs": [],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": []
+    },
+    {
+      "id": "1nOa6",
+      "editionId": "mms-2024-flamingo",
+      "title": "Troubleshooting Tips for Intune Modern Managed Clients (Option 2)",
+      "url": "https://mms2024fll.sched.com/event/1nOa6",
+      "abstract": "Description:Learn practical tips for troubleshooting Intune managed devices. We'll cover real-world scenarios, pitfalls of using Hybrid and Cloud Only managed devices, and best practices for lifecycle monitoring. We'll help you solve issues with Intune managed clients and provide notes from the field.What you will learn:Tips for troubleshooting modern managed clientsReal-world troubleshooting",
+      "abstractFull": false,
+      "start": "2024-10-22T15:00:00",
+      "end": "2024-10-22T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Rio Vista",
+      "speakerSlugs": [
+        "jrgen_nilsson.27sn41it",
+        "sandy_zeng.27sn4def"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "Troubleshooting tips for the Intune modern managed client",
+          "url": "https://hosted-files.sched.co/mms2024fll/1e/Troubleshooting%20tips%20for%20the%20Intune%20modern%20managed%20client.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1ekU7",
+      "editionId": "mms-2024-flamingo",
+      "title": "Empowering Your Data with Microsoft Copilot and Azure OpenAI",
+      "url": "https://mms2024fll.sched.com/event/1ekU7",
+      "abstract": "Description:We'll explore the power of AI and how you can create your own copilots for any of your data without needing AI knowledge. Learn how to unlock the power of AI and use Copilot to enhance your productivity and enrich your experience. Discover the potential of AI and learn how to harness its power to achieve your goals.What you will learn:Create your own Copilot easily without needing AI",
+      "abstractFull": false,
+      "start": "2024-10-22T15:00:00",
+      "end": "2024-10-22T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "kent_agerlund.1xngh2qj",
+        "andreas_sobczyk.1xqa96ke"
+      ],
+      "sourceTrack": "Other",
+      "category": "Other",
+      "materials": []
+    },
+    {
+      "id": "1i8v7",
+      "editionId": "mms-2024-flamingo",
+      "title": "Building a Secure Windows 11 Endpoint with Microsoft Intune",
+      "url": "https://mms2024fll.sched.com/event/1i8v7",
+      "abstract": "Description:Discover a comprehensive approach to securing Windows 11 endpoints. From hardware-level protections to cloud-based security solutions, we'll explore Microsoft's integrated security features that safeguard devices and data. In this demo-intensive session, you'll learn to configure endpoints using Microsoft Intune.What you will learn:Learn about layers of protection for Windows",
+      "abstractFull": false,
+      "start": "2024-10-22T15:00:00",
+      "end": "2024-10-22T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "harjit4",
+        "ken_goosens.29bhu3nc"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": [
+        {
+          "label": "Securing Windows 11 Endpoints",
+          "url": "https://hosted-files.sched.co/mms2024fll/8a/Securing%20Windows%2011%20Endpoints.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1nIx6",
+      "editionId": "mms-2024-flamingo",
+      "title": "Pimp my Prompt! Unlock the Power of Copilot in Windows",
+      "url": "https://mms2024fll.sched.com/event/1nIx6",
+      "abstract": "Get ready to turbocharge your GenAl experience with our \"Pimp my Prompt!\" session. Just like the iconic show \"Pimp My Ride,\" we’re taking the ordinary and making it extraordinary. Discover how to craft and share innovative prompts for Copilot in Windows that go beyond the basics—no Retrieval- Augmented Generation (RAG) or other enhancements needed. Whether you’re a beginner or a seasoned",
+      "abstractFull": false,
+      "start": "2024-10-22T17:00:00",
+      "end": "2024-10-22T18:15:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "greg_ramsey",
+        "donnie_taylor.27sdm6lt"
+      ],
+      "sourceTrack": "Happy Hour",
+      "category": "Social & Networking",
+      "materials": [
+        {
+          "label": "Prompts",
+          "url": "https://hosted-files.sched.co/mms2024fll/cd/Prompts.md",
+          "ext": "md"
+        },
+        {
+          "label": "GregScript",
+          "url": "https://hosted-files.sched.co/mms2024fll/df/GregScript.txt",
+          "ext": "txt"
+        }
+      ]
+    },
+    {
+      "id": "1iyaj",
+      "editionId": "mms-2024-flamingo",
+      "title": "Deploying Microsoft Connected Cache (standalone) with Delivery Optimization",
+      "url": "https://mms2024fll.sched.com/event/1iyaj",
+      "abstract": "Description:Are you looking to deploy Microsoft Connected Cache (standalone) with Delivery Optimization? In this session, you will learn about the requirements for deploying Microsoft Connected Cache (standalone), scenarios that make sense for deployment, and Delivery Optimization recipes that will get the most out of your deployment. Join us to learn how to become best friends with your network",
+      "abstractFull": false,
+      "start": "2024-10-22T17:00:00",
+      "end": "2024-10-22T18:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [],
+      "sourceTrack": "Happy Hour",
+      "category": "Social & Networking",
+      "materials": [
+        {
+          "label": "MCC E2E Demo quiet 3",
+          "url": "https://hosted-files.sched.co/mms2024fll/71/MCC-E2E-Demo-quiet-3.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "MCCPortalE2E",
+          "url": "https://hosted-files.sched.co/mms2024fll/b4/MCCPortalE2E.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "Microsoft Connected Cache MMS FFL 2024 HappyHour (1)",
+          "url": "https://hosted-files.sched.co/mms2024fll/d7/Microsoft_Connected_Cache_MMS_FFL_2024_HappyHour%20%281%29.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1eiHX",
+      "editionId": "mms-2024-flamingo",
+      "title": "Getting Started with AutoDesk Fusion: 3D Printing, Woodworking, and More",
+      "url": "https://mms2024fll.sched.com/event/1eiHX",
+      "abstract": "Description:Learn how to create custom 3D models and generate cut lists with AutoDesk Fusion. Learn the advantages of using Fusion over other software, working with STEP and STL files, generating renders and blueprints. Join us to get started with Fusion for FREE!What you will learn:Create custom 3D models with AutoDesk FusionAdvantages of using Fusion over TinkerCADWorking with STEP and STL",
+      "abstractFull": false,
+      "start": "2024-10-22T17:00:00",
+      "end": "2024-10-22T18:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "scott_corio.27sdm7bd"
+      ],
+      "sourceTrack": "Happy Hour",
+      "category": "Social & Networking",
+      "materials": [
+        {
+          "label": "Getting Started with Autodesk Fusion",
+          "url": "https://hosted-files.sched.co/mms2024fll/3e/Getting%20Started%20with%20Autodesk%20Fusion.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1fYi1",
+      "editionId": "mms-2024-flamingo",
+      "title": "Office Hours LIVE - Community Updates, Q&A, and Roundtable Discussions",
+      "url": "https://mms2024fll.sched.com/event/1fYi1",
+      "abstract": "Description:Join us for Office Hours LIVE, where you can get the latest industry updates and participate in Q&A and roundtable discussions on anything related to Windows deployment, MDT, ConfigMgr, or Intune. Submit your questions and getthem answered by our special guests from the conference. Don't miss out on this opportunity to learn and engage with the community.What you will learn:Latest",
+      "abstractFull": false,
+      "start": "2024-10-22T17:00:00",
+      "end": "2024-10-22T18:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "andrew_johnson.27sn45ur",
+        "johan.arwidmark"
+      ],
+      "sourceTrack": "Happy Hour",
+      "category": "Social & Networking",
+      "materials": []
+    },
+    {
+      "id": "1jtpE",
+      "editionId": "mms-2024-flamingo",
+      "title": "Recast Software & Intune: The Launch Party",
+      "url": "https://mms2024fll.sched.com/event/1jtpE",
+      "abstract": "Note: simply slotting this session doesn't get you in. Please register with link below and wear your badge. You're Invited to the Party of the Year!We’re marking a major milestone, and we want to celebrate with YOU! Join us on Tuesday, October 22nd at McSorley's Pub Rooftop Lounge for an unforgettable evening of fun, connection, and celebration with the Recast Software and MMS community.",
+      "abstractFull": false,
+      "start": "2024-10-22T19:00:00",
+      "end": "2024-10-22T21:30:00",
+      "timezone": "EDT",
+      "dateLabel": "Tuesday October 22, 2024",
+      "venue": null,
+      "speakerSlugs": [],
+      "sourceTrack": "Happy Hour",
+      "category": "Social & Networking",
+      "materials": []
+    },
+    {
+      "id": "1ekU5",
+      "editionId": "mms-2024-flamingo",
+      "title": "Cloud Adoption Framework - Make Your Cloud Adoption a Success",
+      "url": "https://mms2024fll.sched.com/event/1ekU5",
+      "abstract": "Description:Cloud adoption is a complex, ongoing process that requires planning, execution, and governance to align with business goals, follow best practices, and avoid common pitfalls. We'll teach you how to use Microsoft's Cloud Adoption Framework (CAF) to support your cloud transformation journey. You'' learn how to define your cloud vision, assess readiness, choose the right platforms, design",
+      "abstractFull": false,
+      "start": "2024-10-23T08:00:00",
+      "end": "2024-10-23T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Rio Vista",
+      "speakerSlugs": [
+        "chad_lich.27sn47yv",
+        "andreas_sobczyk.1xqa96ke"
+      ],
+      "sourceTrack": "Azure",
+      "category": "Azure & Cloud",
+      "materials": [
+        {
+          "label": "CAF MMSFLL",
+          "url": "https://hosted-files.sched.co/mms2024fll/c6/CAF_MMSFLL.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1egWH",
+      "editionId": "mms-2024-flamingo",
+      "title": "Decoding the Company Portal: Troubleshooting Tips and Tricks",
+      "url": "https://mms2024fll.sched.com/event/1egWH",
+      "abstract": "Description:Learn how to interpret Intune Management Extension logs to troubleshoot issues and optimize the user's Company Portal experience. We'll provide practical tips on managing app advertisements, navigating logs, and uncovering registry locations for Intune app information.What you will learn:Navigate logs effectively to locate app IDs, streamlining app management and supportUncover",
+      "abstractFull": false,
+      "start": "2024-10-23T08:00:00",
+      "end": "2024-10-23T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "andrew_johnson.27sn45ur",
+        "samarti",
+        "jim_oneil.28jia8vk"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "Decoding the Company Portal Troubleshooting Tips and Tricks",
+          "url": "https://hosted-files.sched.co/mms2024fll/36/Decoding%20the%20Company%20Portal%20Troubleshooting%20Tips%20and%20Tricks.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egWA",
+      "editionId": "mms-2024-flamingo",
+      "title": "Clash of Colors: The Red vs. Blue Team Showdown",
+      "url": "https://mms2024fll.sched.com/event/1egWA",
+      "abstract": "Description:Witness an electrifying conference session as the Red and Blue teams go head-to-head in an ethical hacking showdown. You'll learn how attackers breach systems using ethical hacking techniques and how defenders use incident response with Microsoft 365 XDR, Microsoft Sentinel, and Copilot for Security to counterattack. You'll also learn best practices for mitigation. Don't miss it!What",
+      "abstractFull": false,
+      "start": "2024-10-23T08:00:00",
+      "end": "2024-10-23T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "sergey.chubarov",
+        "morten_knudsen.27sn3yb1"
+      ],
+      "sourceTrack": "Security",
+      "category": "Security",
+      "materials": []
+    },
+    {
+      "id": "1i4VR",
+      "editionId": "mms-2024-flamingo",
+      "title": "Preparing for System Recovery Scenarios",
+      "url": "https://mms2024fll.sched.com/event/1i4VR",
+      "abstract": "Description:Is your organization prepared for worst-case scenarios? In this session, we'll discuss how to prepare for recovery events, including malware and destructive updates. You'll learn about available tools and the steps you can take to prepare now. We'll also cover how to scale out your recovery efforts if needed.What you will learn:Learn about system recovery scenariosDiscover available",
+      "abstractFull": false,
+      "start": "2024-10-23T08:00:00",
+      "end": "2024-10-23T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "mike_terrill.27sn475c",
+        "keithg4"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": []
+    },
+    {
+      "id": "1gUWX",
+      "editionId": "mms-2024-flamingo",
+      "title": "What's Next for Windows 365 and AVD",
+      "url": "https://mms2024fll.sched.com/event/1gUWX",
+      "abstract": "Description:We'll review the Windows 365, AI, Windows, and Azure Virtual Desktop roadmap. Learn about the vision around Cloud VDI and Cloud PC, and how both AVD and Windows 365 compare in the furture. Discover new features, such as Windows 365 Boot, Switch, and more. This session is packed with new insights, technical depth, and fun!What you will learn: Learn about Windows 365 and AVD roadmap",
+      "abstractFull": false,
+      "start": "2024-10-23T08:00:00",
+      "end": "2024-10-23T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Atlantic III",
+      "speakerSlugs": [
+        "ericor",
+        "chris_cavazos.27to6pmu"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": [
+        {
+          "label": "WhatsNextW365andAVD Draft1",
+          "url": "https://hosted-files.sched.co/mms2024fll/7f/WhatsNextW365andAVD-Draft1.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egXf",
+      "editionId": "mms-2024-flamingo",
+      "title": "Windows Enrollment Options - Deep Dive",
+      "url": "https://mms2024fll.sched.com/event/1egXf",
+      "abstract": "Description:We'll dive deep into the different ways to onboard Windows devices into Entra. Learn about licensing, MDM scope, and how to leverage the different join states for conditional access policy design. Discover the right way to secure corporate Windows devices and how to troubleshoot join state issues in your environment.What you will learn:Understand the different enrollment typesLeverage",
+      "abstractFull": false,
+      "start": "2024-10-23T08:00:00",
+      "end": "2024-10-23T09:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "maurice.daly",
+        "simon_skotheimsvik.7z9wjar"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": [
+        {
+          "label": "EnrolmentOptions DeepDive",
+          "url": "https://hosted-files.sched.co/mms2024fll/6e/EnrolmentOptions-DeepDive.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1egXH",
+      "editionId": "mms-2024-flamingo",
+      "title": "Managing Servers with Azure Arc",
+      "url": "https://mms2024fll.sched.com/event/1egXH",
+      "abstract": "Description:Learn how to manage your Windows and Linux servers, as well as Windows 10/11, using Azure Arc. Discover how to configure servers using cloud shell, command line, and a web UI without any VPN or Remote Desktop. We'll show you how to maintain security while accessing your environment using modern tools.What you will learn:Modern server management toolsSecure access to your environmentThe",
+      "abstractFull": false,
+      "start": "2024-10-23T10:00:00",
+      "end": "2024-10-23T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Rio Vista",
+      "speakerSlugs": [
+        "mikael_nystrom.27sn47jl",
+        "johan.arwidmark",
+        "david_brook.27tenjix"
+      ],
+      "sourceTrack": "Azure",
+      "category": "Azure & Cloud",
+      "materials": [
+        {
+          "label": "Nystrom Brook Arwidmark Managing Servers with Azure Arc",
+          "url": "https://hosted-files.sched.co/mms2024fll/2f/Nystrom_Brook_Arwidmark_Managing_Servers_with_Azure_Arc.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1fKep",
+      "editionId": "mms-2024-flamingo",
+      "title": "Intune and ConfigMgr - Better Together with Co-Management",
+      "url": "https://mms2024fll.sched.com/event/1fKep",
+      "abstract": "Description:Learn how to manage Azure AD only, hybrid joined devices, or a mix with Intune, ConfigMgr, and Co-Management. Discover the benefits of combining these services and how Co-Management brings more flexibility to targeting policies. Join us to understand real-time actions and integrated custom inventory and reporting. We'll also address Autopilot challenges.What you will learn:Flexible",
+      "abstractFull": false,
+      "start": "2024-10-23T10:00:00",
+      "end": "2024-10-23T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "kim_oppalfens.27sn3ymy",
+        "tom_degreef.1xqbm359"
+      ],
+      "sourceTrack": "ConfigMgr",
+      "category": "Configuration Manager",
+      "materials": [
+        {
+          "label": "Intune and Configmgr Better together",
+          "url": "https://hosted-files.sched.co/mms2024fll/c4/Intune%20and%20Configmgr%20-%20Better%20together.pptx",
+          "ext": "pptx"
+        },
+        {
+          "label": "APPLICATION AUDACITY",
+          "url": "https://hosted-files.sched.co/mms2024fll/c2/APPLICATION-AUDACITY.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "APPLICATION GREENSHOT",
+          "url": "https://hosted-files.sched.co/mms2024fll/c9/APPLICATION-GREENSHOT.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "BASELINES",
+          "url": "https://hosted-files.sched.co/mms2024fll/08/BASELINES.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "CMPIVOT",
+          "url": "https://hosted-files.sched.co/mms2024fll/76/CMPIVOT.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "Custom Inventory",
+          "url": "https://hosted-files.sched.co/mms2024fll/a0/Custom-Inventory.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "Flexible Targetting",
+          "url": "https://hosted-files.sched.co/mms2024fll/03/Flexible-Targetting.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "PACKAGES",
+          "url": "https://hosted-files.sched.co/mms2024fll/4f/PACKAGES.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "REPORTS",
+          "url": "https://hosted-files.sched.co/mms2024fll/20/REPORTS.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "SCRIPTS GETHOFIX",
+          "url": "https://hosted-files.sched.co/mms2024fll/33/SCRIPTS-GETHOFIX.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "SCRIPTS GETREBOOT",
+          "url": "https://hosted-files.sched.co/mms2024fll/bc/SCRIPTS-GETREBOOT.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "SCRIPTS MMSMOA",
+          "url": "https://hosted-files.sched.co/mms2024fll/24/SCRIPTS-MMSMOA.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "SERVERS",
+          "url": "https://hosted-files.sched.co/mms2024fll/d4/SERVERS.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "Software Metering",
+          "url": "https://hosted-files.sched.co/mms2024fll/69/Software-Metering.mp4",
+          "ext": "mp4"
+        },
+        {
+          "label": "TASK SEQUENCE",
+          "url": "https://hosted-files.sched.co/mms2024fll/54/TASK-SEQUENCE.mp4",
+          "ext": "mp4"
+        }
+      ]
+    },
+    {
+      "id": "1fGhG",
+      "editionId": "mms-2024-flamingo",
+      "title": "Don't Think, Just DO - A Delivery Optimization Deep Dive",
+      "url": "https://mms2024fll.sched.com/event/1fGhG",
+      "abstract": "Description:As more organizations adopt a cloud-first model for application and update deployment, it's crucial to consider its impact on the network. Join us for a session on how to monitor and control bandwidth using Delivery Optimization (DO). Learn to configure DO policies in Intune, report on DO data, and ensure quality of service.What you will learn:Monitor and control bandwidth using",
+      "abstractFull": false,
+      "start": "2024-10-23T10:00:00",
+      "end": "2024-10-23T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "maurice.daly",
+        "ken_goosens.29bhu3nc"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "DeliveryOptimization",
+          "url": "https://hosted-files.sched.co/mms2024fll/9a/DeliveryOptimization.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1egX3",
+      "editionId": "mms-2024-flamingo",
+      "title": "Intune Driver Management: Is it Ready?",
+      "url": "https://mms2024fll.sched.com/event/1egX3",
+      "abstract": "Description:Struggling to manage drivers effectively? Join us to learn how to use Intune driver management to keep your endpoint's drivers up to date. We'll explore the Windows Update Catalog's 2 billion drivers and discuss the enterprise controls around it. In this session, you'll gain insight into the pros and cons of Intune driver management, helping you decide if it's ready for your",
+      "abstractFull": false,
+      "start": "2024-10-23T10:00:00",
+      "end": "2024-10-23T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "bryan_dam.28jno8u4",
+        "nathan_ziehnert.27sdlp62"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "Intune Driver Management Is It Ready",
+          "url": "https://hosted-files.sched.co/mms2024fll/e6/Intune%20Driver%20Management%20-%20Is%20It%20Ready.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1fOiI",
+      "editionId": "mms-2024-flamingo",
+      "title": "Leveraging Intune, Defender XDR, and Graph API for data-informed projects",
+      "url": "https://mms2024fll.sched.com/event/1fOiI",
+      "abstract": "Description:Learn how to obtain information from devices and cloud services to plan and implement projects. We'll explore Intune Remediations, Data Warehouse, Intune Graph, Advanced Analytics, KQL query techniques, Graph API, scopes, permissions, and filters.What you will learn:Use Intune Remediations, Data Warehouse, Intune Graph, and Advanced Analytics for data-informed projectsQuery Defender",
+      "abstractFull": false,
+      "start": "2024-10-23T10:00:00",
+      "end": "2024-10-23T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "nathan_mcnulty.27snymyj"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "data informed projects",
+          "url": "https://hosted-files.sched.co/mms2024fll/2b/data-informed-projects.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egVL",
+      "editionId": "mms-2024-flamingo",
+      "title": "Boosting Windows Client Resilience",
+      "url": "https://mms2024fll.sched.com/event/1egVL",
+      "abstract": "Description:Fortify your clients' security posture using built-in features in Windows 11. Learn how to use Microsoft security baselines to prioritize security enhancements effectively. Benefit from real-world illustrations and expert guidance to develop a successful plan for hardening systems.What you will learn:Strengthen your Windows client securityDevelop a successful plan for hardening",
+      "abstractFull": false,
+      "start": "2024-10-23T10:00:00",
+      "end": "2024-10-23T11:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Atlantic III",
+      "speakerSlugs": [
+        "jrgen_nilsson.27sn41it",
+        "kent_agerlund.1xngh2qj"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": [
+        {
+          "label": "Boosting Windows Client Resilience",
+          "url": "https://hosted-files.sched.co/mms2024fll/72/Boosting%20Windows%20Client%20Resilience.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1oov3",
+      "editionId": "mms-2024-flamingo",
+      "title": "Lunch",
+      "url": "https://mms2024fll.sched.com/event/1oov3",
+      "abstract": "Lunch is outside on the Sky Terrace & Atlantic Portica. If you're in a Los Olas room before lunch, head upstairs. If in an Atlantic room downstairs, head straight outside. Having two places makes getting to lunch faster and keeps lines shorter.",
+      "abstractFull": false,
+      "start": "2024-10-23T11:30:00",
+      "end": "2024-10-23T13:15:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": null,
+      "speakerSlugs": [],
+      "sourceTrack": "Other",
+      "category": "Other",
+      "materials": []
+    },
+    {
+      "id": "1it0Q",
+      "editionId": "mms-2024-flamingo",
+      "title": "Got to Deploy them All: A Beginner's Guide to Azure Resource Deployment with DevOps",
+      "url": "https://mms2024fll.sched.com/event/1it0Q",
+      "abstract": "Description:Join us on a journey of Azure Resource deployment. Learn how to create resource templates using both ARM and BICEP templates, and easily configure your existing deployments. We'll introduce the concept of Infrastructure as Code (IaC), explaining its benefits to your business and how it enables you to create multiple environments at will.What you will learn:Foundational understanding of",
+      "abstractFull": false,
+      "start": "2024-10-23T13:00:00",
+      "end": "2024-10-23T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Rio Vista",
+      "speakerSlugs": [
+        "scott_corio.27sdm7bd",
+        "david_brook.27tenjix"
+      ],
+      "sourceTrack": "Azure",
+      "category": "Azure & Cloud",
+      "materials": [
+        {
+          "label": "2024 Florida Got to Deploy Them All",
+          "url": "https://hosted-files.sched.co/mms2024fll/34/2024%20-%20Florida%20-%20Got%20to%20Deploy%20Them%20All.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1elPw",
+      "editionId": "mms-2024-flamingo",
+      "title": "Supercharge Your ITSM Processes with Admin Service and Graph API",
+      "url": "https://mms2024fll.sched.com/event/1elPw",
+      "abstract": "Description:Learn how to interact with data exposed through Admin Service/Graph API to streamline your ITSM processes. Empower T1 without granting console/portal access and enable simple lookups. Discover launch points for Admin Service/Graph API in other actions.What you will learn:Access Admin Service/Graph API and work with useful endpointsEmpower T1 with real-time data from management",
+      "abstractFull": false,
+      "start": "2024-10-23T13:00:00",
+      "end": "2024-10-23T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "andrew_johnson.27sn45ur",
+        "matt_zaske.27sn4e6k"
+      ],
+      "sourceTrack": "ConfigMgr",
+      "category": "Configuration Manager",
+      "materials": [
+        {
+          "label": "Admin Service and Graph",
+          "url": "https://hosted-files.sched.co/mms2024fll/17/Admin%20Service%20and%20Graph.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1g1rx",
+      "editionId": "mms-2024-flamingo",
+      "title": "Cloud Native Content Delivery with Delivery Optimization",
+      "url": "https://mms2024fll.sched.com/event/1g1rx",
+      "abstract": "Description:Learn about Delivery Optimization (DO), the de-facto content delivery and Peer-to-Peer system for Windows 10/11 and Intune. We'll cover why the correct configuration for DO is vital, share great settings to get you started, look at the potential and pitfalls of Winget, and show how to deliver content during Autopilot. Learn how to set up and troubleshoot Delivery Optimization and",
+      "abstractFull": false,
+      "start": "2024-10-23T13:00:00",
+      "end": "2024-10-23T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "michael_niehaus.29cuco8l",
+        "andreas_hammarskjld.27w40b37"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "Cloud Native Content Delivery with Delivery Optimization",
+          "url": "https://hosted-files.sched.co/mms2024fll/9d/Cloud%20Native%20Content%20Delivery%20with%20Delivery%20Optimization.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egX9",
+      "editionId": "mms-2024-flamingo",
+      "title": "Troubleshooting Tips for Intune Modern Managed Clients (Option 1)",
+      "url": "https://mms2024fll.sched.com/event/1egX9",
+      "abstract": "Description:Learn practical tips for troubleshooting Intune managed devices. We'll cover real-world scenarios, pitfalls of using Hybrid and Cloud Only managed devices, and best practices for lifecycle monitoring. We'll help you solve issues with Intune managed clients and provide notes from the field.What you will learn:Tips for troubleshooting modern managed clientsReal-world troubleshooting",
+      "abstractFull": false,
+      "start": "2024-10-23T13:00:00",
+      "end": "2024-10-23T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "jrgen_nilsson.27sn41it",
+        "sandy_zeng.27sn4def"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "Troubleshooting tips for the Intune modern managed client",
+          "url": "https://hosted-files.sched.co/mms2024fll/70/Troubleshooting%20tips%20for%20the%20Intune%20modern%20managed%20client.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1fOgn",
+      "editionId": "mms-2024-flamingo",
+      "title": "Automating Access Management with Entra",
+      "url": "https://mms2024fll.sched.com/event/1fOgn",
+      "abstract": "Description:Learn how to automate access to resources with integrated approval workflows and access governance using Entra. We'll cover automating access to licensed software, travel exclusions, and MDM device enrollment. You'll learn how to tie this back into Active Directory-based systems, and how to automate the removal or extension of access based on usage, time, and other factors.What you",
+      "abstractFull": false,
+      "start": "2024-10-23T13:00:00",
+      "end": "2024-10-23T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "adam_gross.27so7u0l",
+        "nathan_mcnulty.27snymyj"
+      ],
+      "sourceTrack": "Other",
+      "category": "Other",
+      "materials": [
+        {
+          "label": "entra entitlement management",
+          "url": "https://hosted-files.sched.co/mms2024fll/6d/entra-entitlement-management.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egXZ",
+      "editionId": "mms-2024-flamingo",
+      "title": "The Mechanics of Windows Update Reporting",
+      "url": "https://mms2024fll.sched.com/event/1egXZ",
+      "abstract": "Description:Explore the integration and mechanics of Windows Update Reporting, from the client to the service and all intermediate steps. Learn how to best leverage the various mediums in Windows Update Reporting and gain a working knowledge to successfully leverage it.What you will learn:Understanding of the mechanics of Windows Update ReportingHow to leverage the various mediums in Windows",
+      "abstractFull": false,
+      "start": "2024-10-23T13:00:00",
+      "end": "2024-10-23T14:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Atlantic III",
+      "speakerSlugs": [
+        "jan_ketil_skanke.27sn43j2",
+        "adam_nichols.29bhu3ne"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": [
+        {
+          "label": "The Mechanics of Windows Update Reporting",
+          "url": "https://hosted-files.sched.co/mms2024fll/ae/The%20Mechanics%20of%20Windows%20Update%20Reporting.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1nOYG",
+      "editionId": "mms-2024-flamingo",
+      "title": "10 Intune Mistakes to Avoid for Optimal Endpoint Management (Option 2)",
+      "url": "https://mms2024fll.sched.com/event/1nOYG",
+      "abstract": "Description:Unlock Intune's full potential! Learn about the top 10 common mistakes in Intune and how to avoid them, leveraging cutting-edge Intune technologies. Discover best practices for optimal endpoint management, application delivery, and robust security across PCs, macOS, and mobile devices. Walk away with inspirational ideas ready to use in your environment.What you will learn:Avoid common",
+      "abstractFull": false,
+      "start": "2024-10-23T15:00:00",
+      "end": "2024-10-23T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Atlantic III",
+      "speakerSlugs": [
+        "simon_skotheimsvik.7z9wjar",
+        "sandy_zeng.27sn4def"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "10 Intune Mistakes to Avoid for Optimal Endpoint Management Handouts",
+          "url": "https://hosted-files.sched.co/mms2024fll/ee/10%20Intune%20Mistakes%20to%20Avoid%20for%20Optimal%20Endpoint%20Management%20Handouts.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1fWJu",
+      "editionId": "mms-2024-flamingo",
+      "title": "Building Blocks for Automation in Azure: Kiosk Auto Logon",
+      "url": "https://mms2024fll.sched.com/event/1fWJu",
+      "abstract": "Description:As the great cloud migration rolls on, administrators need new cloud-based tools to continue automating themselves out of a job. In this session, Adam and Bryan will discuss various building blocks they've found useful: Azure Functions, Azure Key Vault, and Azure Table Storage, all bound together with PowerShell. By way of example, Adam will walk through how he used these building",
+      "abstractFull": false,
+      "start": "2024-10-23T15:00:00",
+      "end": "2024-10-23T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Oceanside II",
+      "speakerSlugs": [
+        "bryan_dam.28jno8u4",
+        "adam_gross.27so7u0l"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "MMSFLL2024 Configuring Kiosk Auto Logon Using Azure Technologies Final",
+          "url": "https://hosted-files.sched.co/mms2024fll/f4/MMSFLL2024-Configuring%20Kiosk%20Auto%20Logon%20Using%20Azure%20Technologies_Final.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1egWu",
+      "editionId": "mms-2024-flamingo",
+      "title": "Exploring the Microsoft Intune Connector for ServiceNow",
+      "url": "https://mms2024fll.sched.com/event/1egWu",
+      "abstract": "Description:Are you running or evaluating Intune and using ServiceNow? We'll explore the details of the Intune Connector for ServiceNow and learn how to configure it for your organization. You'll see it live in action, learn how to sync and transform data, and understand the limitations. Learn how to go beyond the connector to make your service desk more efficient.What you will learn:Connecting",
+      "abstractFull": false,
+      "start": "2024-10-23T15:00:00",
+      "end": "2024-10-23T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Atlantic I",
+      "speakerSlugs": [
+        "greg_ramsey",
+        "paul_wetter.27sr1aqg"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "Exploring the Microsoft Intune Connector for ServiceNow",
+          "url": "https://hosted-files.sched.co/mms2024fll/7c/Exploring%20the%20Microsoft%20Intune%20Connector%20for%20ServiceNow.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1iB3x",
+      "editionId": "mms-2024-flamingo",
+      "title": "Housekeeping for the Modern Endpoint Admin: Governance",
+      "url": "https://mms2024fll.sched.com/event/1iB3x",
+      "abstract": "Description:Is your environment cluttered and confusing? In this session, Tim and Peter will provide tips on implementing structures and guidelines to avoid clutter in your tenant. Learn how to design a proper naming convention, create structure to support multiple releases and test scenarios, and automate detection and cleanup of obsolete objects. Join us for an organized and clutter-free modern",
+      "abstractFull": false,
+      "start": "2024-10-23T15:00:00",
+      "end": "2024-10-23T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Las Olas II III",
+      "speakerSlugs": [
+        "tim_de_keukelaere.1sw4e0pu",
+        "peter_daalmans.28j9d0cg"
+      ],
+      "sourceTrack": "Intune",
+      "category": "Endpoint Management",
+      "materials": [
+        {
+          "label": "MMSFLL2024 Housekeeping v1.0F",
+          "url": "https://hosted-files.sched.co/mms2024fll/96/MMSFLL2024-Housekeeping%20-%20v1.0F.pdf",
+          "ext": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "1fKeu",
+      "editionId": "mms-2024-flamingo",
+      "title": "Windows Application Allowlisting: Notes from the Field",
+      "url": "https://mms2024fll.sched.com/event/1fKeu",
+      "abstract": "Description:Discover the benefits of application allowlisting in combating malware on the Windows platform. We'll share our tips, tricks, and notes on how to implement it successfully. Join us to learn about the project plan, common pitfalls, and new tooling to aid in application allowlisting.What you will learn:Benefits of application allowlisting in combating malwareElements to include in a",
+      "abstractFull": false,
+      "start": "2024-10-23T15:00:00",
+      "end": "2024-10-23T16:45:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "kim_oppalfens.27sn3ymy",
+        "tom_degreef.1xqbm359"
+      ],
+      "sourceTrack": "Windows",
+      "category": "Windows",
+      "materials": [
+        {
+          "label": "WDAC Notes from the field",
+          "url": "https://hosted-files.sched.co/mms2024fll/db/WDAC%20-%20Notes%20from%20the%20field.pptx",
+          "ext": "pptx"
+        }
+      ]
+    },
+    {
+      "id": "1j4uz",
+      "editionId": "mms-2024-flamingo",
+      "title": "Flamingo Finale: Raffles, Revelations, and Recap Extravaganza!",
+      "url": "https://mms2024fll.sched.com/event/1j4uz",
+      "abstract": "Description:Join us for our closing session. We'll raffle some fabulous prizes, and recap the week!",
+      "abstractFull": false,
+      "start": "2024-10-23T17:00:00",
+      "end": "2024-10-23T19:00:00",
+      "timezone": "EDT",
+      "dateLabel": "Wednesday October 23, 2024",
+      "venue": "Las Olas I",
+      "speakerSlugs": [
+        "kim_oppalfens.27sn3ymy",
+        "kent_agerlund.1xngh2qj"
+      ],
+      "sourceTrack": "Happy Hour",
+      "category": "Social & Networking",
+      "materials": [
+        {
+          "label": "MMS Flamingo Closing",
+          "url": "https://hosted-files.sched.co/mms2024fll/89/MMS%20Flamingo%20Closing.pptx",
+          "ext": "pptx"
+        }
+      ]
+    }
+  ],
+  "speakers": [
+    {
+      "slug": "adam_gross.27so7u0l",
+      "name": "Adam Gross",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/adam_gross.27so7u0l"
+    },
+    {
+      "slug": "adam_nichols.29bhu3ne",
+      "name": "Adam Nichols",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/adam_nichols.29bhu3ne"
+    },
+    {
+      "slug": "andreas_hammarskjld.27w40b37",
+      "name": "Andreas Hammarskjöld",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/andreas_hammarskjld.27w40b37"
+    },
+    {
+      "slug": "andreas_sobczyk.1xqa96ke",
+      "name": "Andreas Sobczyk",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/andreas_sobczyk.1xqa96ke"
+    },
+    {
+      "slug": "andrew_johnson.27sn45ur",
+      "name": "Andrew Johnson",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/andrew_johnson.27sn45ur"
+    },
+    {
+      "slug": "bryan_dam.28jno8u4",
+      "name": "Bryan Dam",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/bryan_dam.28jno8u4"
+    },
+    {
+      "slug": "chad_lich.27sn47yv",
+      "name": "Chad Lich",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/chad_lich.27sn47yv"
+    },
+    {
+      "slug": "chris_cavazos.27to6pmu",
+      "name": "Chris Cavazos",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/chris_cavazos.27to6pmu"
+    },
+    {
+      "slug": "chris.sires",
+      "name": "Chris Sires",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/chris.sires"
+    },
+    {
+      "slug": "chris_thompson.27sn42aa",
+      "name": "Chris Thompson",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/chris_thompson.27sn42aa"
+    },
+    {
+      "slug": "david_brook.27tenjix",
+      "name": "David Brook",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/david_brook.27tenjix"
+    },
+    {
+      "slug": "donnie_taylor.27sdm6lt",
+      "name": "Donnie Taylor",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/donnie_taylor.27sdm6lt"
+    },
+    {
+      "slug": "ericor",
+      "name": "Eric Orman",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/ericor"
+    },
+    {
+      "slug": "greg_ramsey",
+      "name": "Greg Ramsey",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/greg_ramsey"
+    },
+    {
+      "slug": "harjit4",
+      "name": "Harjit Dhaliwal",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/harjit4"
+    },
+    {
+      "slug": "jan_ketil_skanke.27sn43j2",
+      "name": "Jan Ketil Skanke",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/jan_ketil_skanke.27sn43j2"
+    },
+    {
+      "slug": "jannik_reinhard.27tenj5s",
+      "name": "Jannik Reinhard",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/jannik_reinhard.27tenj5s"
+    },
+    {
+      "slug": "jim_oneil.28jia8vk",
+      "name": "Jim O'Neil",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/jim_oneil.28jia8vk"
+    },
+    {
+      "slug": "johan.arwidmark",
+      "name": "Johan Arwidmark",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/johan.arwidmark"
+    },
+    {
+      "slug": "jordan_benzing.28k3fr8m",
+      "name": "Jordan Benzing",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/jordan_benzing.28k3fr8m"
+    },
+    {
+      "slug": "jrgen_nilsson.27sn41it",
+      "name": "Jörgen Nilsson",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/jrgen_nilsson.27sn41it"
+    },
+    {
+      "slug": "keithg4",
+      "name": "Keith Garner",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/keithg4"
+    },
+    {
+      "slug": "ken_goosens.29bhu3nc",
+      "name": "Ken Goossens",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/ken_goosens.29bhu3nc"
+    },
+    {
+      "slug": "kent_agerlund.1xngh2qj",
+      "name": "Kent Agerlund",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/kent_agerlund.1xngh2qj"
+    },
+    {
+      "slug": "kim_oppalfens.27sn3ymy",
+      "name": "Kim Oppalfens",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/kim_oppalfens.27sn3ymy"
+    },
+    {
+      "slug": "krystina_kyle.27snzsad",
+      "name": "Krystina Kyle",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/krystina_kyle.27snzsad"
+    },
+    {
+      "slug": "mattcall1",
+      "name": "Matt Call",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/mattcall1"
+    },
+    {
+      "slug": "matt_zaske.27sn4e6k",
+      "name": "Matt Zaske",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/matt_zaske.27sn4e6k"
+    },
+    {
+      "slug": "maurice.daly",
+      "name": "Maurice Daly",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/maurice.daly"
+    },
+    {
+      "slug": "michael_niehaus.29cuco8l",
+      "name": "Michael Niehaus",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/michael_niehaus.29cuco8l"
+    },
+    {
+      "slug": "mikael_nystrom.27sn47jl",
+      "name": "Mikael Nystrom",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/mikael_nystrom.27sn47jl"
+    },
+    {
+      "slug": "mike_terrill.27sn475c",
+      "name": "Mike Terrill",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/mike_terrill.27sn475c"
+    },
+    {
+      "slug": "morten_knudsen.27sn3yb1",
+      "name": "Morten Knudsen",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/morten_knudsen.27sn3yb1"
+    },
+    {
+      "slug": "nathan_mcnulty.27snymyj",
+      "name": "Nathan McNulty",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/nathan_mcnulty.27snymyj"
+    },
+    {
+      "slug": "nathan_ziehnert.27sdlp62",
+      "name": "Nathan Ziehnert",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/nathan_ziehnert.27sdlp62"
+    },
+    {
+      "slug": "paul_wetter.27sr1aqg",
+      "name": "Paul Wetter",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/paul_wetter.27sr1aqg"
+    },
+    {
+      "slug": "peter_daalmans.28j9d0cg",
+      "name": "Peter Daalmans",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/peter_daalmans.28j9d0cg"
+    },
+    {
+      "slug": "aria30",
+      "name": "Qaiss Aria",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/aria30"
+    },
+    {
+      "slug": "rod_trent.28kie72h",
+      "name": "Rod Trent",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/rod_trent.28kie72h"
+    },
+    {
+      "slug": "sandy_zeng.27sn4def",
+      "name": "Sandy Zeng",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/sandy_zeng.27sn4def"
+    },
+    {
+      "slug": "samarti",
+      "name": "Santos Martinez",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/samarti"
+    },
+    {
+      "slug": "scott_corio.27sdm7bd",
+      "name": "Scott Corio",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/scott_corio.27sdm7bd"
+    },
+    {
+      "slug": "sergey.chubarov",
+      "name": "Sergey Chubarov",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/sergey.chubarov"
+    },
+    {
+      "slug": "simon.binder2",
+      "name": "Simon Binder",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/simon.binder2"
+    },
+    {
+      "slug": "simon_skotheimsvik.7z9wjar",
+      "name": "Simon Skotheimsvik",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/simon_skotheimsvik.7z9wjar"
+    },
+    {
+      "slug": "steve_weiner.27sn40ya",
+      "name": "Steve Weiner",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/steve_weiner.27sn40ya"
+    },
+    {
+      "slug": "tim_de_keukelaere.1sw4e0pu",
+      "name": "Tim De Keukelaere",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/tim_de_keukelaere.1sw4e0pu"
+    },
+    {
+      "slug": "tom_degreef.1xqbm359",
+      "name": "Tom Degreef",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/tom_degreef.1xqbm359"
+    },
+    {
+      "slug": "vinnie_flynt.26zyvfws",
+      "name": "Vinnie Flynt",
+      "profileUrl": "https://mms2024fll.sched.com/speaker/vinnie_flynt.26zyvfws"
+    }
+  ]
+}
