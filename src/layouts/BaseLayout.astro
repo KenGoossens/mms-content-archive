@@ -1,0 +1,28 @@
+---
+// Minimal shared layout. Visual branding (MMS-inspired palette, gradient grid,
+// disclaimer) is applied in ticket 07; this keeps every page consistent for now.
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+  </head>
+  <body>
+    <header>
+      <a href="/">MMS Content Archive</a>
+      <p><small>Unofficial, community-made. Not affiliated with MMS.</small></p>
+    </header>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>

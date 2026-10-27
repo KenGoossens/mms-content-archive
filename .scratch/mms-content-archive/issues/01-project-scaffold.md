@@ -4,7 +4,7 @@
 
 **Blocked by:** None (can start immediately).
 
-**Status:** ready-for-agent
+**Status:** done
 
 - [ ] `build` produces a static site in an output directory, deployable to a free static host with no server or database
 - [ ] `test` runs the test runner green against a trivial placeholder test

@@ -1,0 +1,26 @@
+{
+  "name": "mms-content-archive",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Unofficial, community-made searchable archive of MMS session content, built from public Sched schedules.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "astro": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "prettier": "^3.4.0",
+    "prettier-plugin-astro": "^0.14.1",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}
