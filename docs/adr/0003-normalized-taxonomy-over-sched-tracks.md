@@ -1,0 +1,3 @@
+# Categorize with our own normalized taxonomy, mapped from Sched's raw tracks
+
+Each edition's Sched schedule carries its own tracks, session types, and tags, and these labels drift between editions (different names, granularity, and spelling for the same topic). Rather than surface those raw labels directly, we define a small **curated taxonomy we control** and map each edition's raw Source Tracks onto it. This is what makes "categorize all content" coherent across five editions and keeps the category filter stable as more editions are added; the cost is maintaining the mapping whenever a new edition introduces unfamiliar track names.

@@ -1,0 +1,3 @@
+# Link to Sched-hosted materials instead of mirroring them
+
+Visitors can download speaker presentations, but we **link to Sched's own download URL rather than copying the files into our own storage**. Mirroring would mean republishing other people's decks from an unofficial site (a permission/copyright exposure) plus storage and staleness to manage; linking avoids all of that, and the decks are already public-to-attendees on Sched. The accepted downside: a visitor who isn't a logged-in Sched attendee may hit Sched's login wall on click (though some editions open slides fully public). Relatedly, we store only speaker **name + public session list + public profile link** — not emails, photos, or bios — to respect Sched's terms against harvesting personal data.
